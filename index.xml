@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  
+<item>
+<title>[COLOR skyblue]Unete a Telegram :[/COLOR][COLOR red][/COLOR][COLOR yellow]     
+            https://t.me/MagyckPi[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/pP2vFUh4lXc/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+</item>
+
+<item>
+<title>[COLOR skyblue]Tu granito de arena :[/COLOR][COLOR red][/COLOR][COLOR yellow]     
+            paypal.me/magyckpi[/COLOR]</title>
+<fanart>https://i.ytimg.com/vi/pP2vFUh4lXc/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+</item>
+
+
+
+<item>
+<title>[COLOR skyblue]========== [/COLOR][COLOR deeppink]========== [/COLOR][COLOR yellow]========== [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/7SB2F0u.png</thumbnail>
+<fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
+</item>
+
+
+  
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] FANATICS F1 [/B][/COLOR][COLOR yellow][I]-  Ultimo GP : Brasil (Circuito de Interlagos)[/I][/COLOR]</title>
+<thumbnail>http://www.thesportsdb.com/images/icons/honours/FIA_Formula_1_World_Championship.png</thumbnail>
+<fanart>http://www.f1fanatic.co.uk/wp-content/uploads/2017/04/XPB_868129_HiRes-e1491629335234.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#102;&#111;&#114;&#109;&#117;&#108;&#097;&#049;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] FANATICS MOTOGP [/B][/COLOR][COLOR yellow][I]- Ultimo GP : Valencia (Ricardp Tormo)[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
+<fanart>https://i.imgur.com/UlIfR3z.png</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#109;&#101;&#110;&#117;&#109;&#111;&#116;&#111;&#115;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] MUNDIAL SBK [/B][/COLOR][COLOR yellow][I]- Ultimo GP : Qatar (Losail)[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
+<fanart>https://i.imgur.com/RciowNP.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#115;&#098;&#107;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] CAMPEONATO DTM [/B][/COLOR][COLOR yellow][I]- Ultimo GP : Alemania (Hockenheim)[/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.imgur.com/WQ84t3A.jpg</thumbnail>
+<fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deeppink] ->  [/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.imgur.com/WQ84t3A.jpg</thumbnail>
+						<fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=v9SLXyzCfnE&amp;list=PLrjmhNF7Jz1zbPUzq1V2qCllB_TXex1SY</page>
+             <cookieJar></cookieJar>
+</regex>
+
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] INDYCAR [/B][/COLOR][COLOR yellow][I]- Ultimo GP : Detroit [/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/TA7hHAY.jpg</thumbnail>
+<fanart>https://i.imgur.com/hOQkDYz.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#105;&#110;&#100;&#121;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] FIA World Rallycross Championship [/B][/COLOR]</title>
+<thumbnail>https://i.imgur.com/wLIcz6w.jpg</thumbnail>
+<fanart>https://i.imgur.com/7xyormT.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#119;&#114;&#120;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[COLOR skyblue]========== [/COLOR][COLOR deeppink]========== [/COLOR][COLOR yellow]========== [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/7SB2F0u.png</thumbnail>
+<fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] LA LIGA ( Resumenes ) [/B][/COLOR][COLOR yellow][I]-  Jornada 12[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/3j2o9ao.png</thumbnail>
+<fanart>https://i.imgur.com/ZeR8UW1.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#108;&#105;&#103;&#097;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] NBA ( Resumenes ) [/B][/COLOR][COLOR yellow][I] -  [/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.imgur.com/OPy5lJ7.png</thumbnail>
+<fanart>https://i.imgur.com/GFbc9Bp.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR springgreen][makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.imgur.com/OPy5lJ7.png</thumbnail>
+						<fanart>https://i.imgur.com/GFbc9Bp.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=RjAOnc1xaLA&amp;list=PLKOK9PD9MJYliV2PWBLgN45UhGGd2lZ2i</page>
+             <cookieJar></cookieJar>
+</regex>
+
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR skyblue]========== [/COLOR][COLOR deeppink]========== [/COLOR][COLOR yellow]========== [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/7SB2F0u.png</thumbnail>
+<fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] DRAGON BALL SUPER ( Sub.Esp)[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/HmXfSgj.jpg</thumbnail>
+<fanart>https://i.imgur.com/DGQusQh.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#100;&#098;&#115;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] SERIES[/COLOR][/B]</title>
+<thumbnail>https://pbs.twimg.com/profile_images/3121099081/435e06fa0cdb34f2fc4a1b045993a030.png</thumbnail>
+<fanart>https://kingstraining.com/wp-content/uploads/2016/07/1jwwo6.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#115;&#101;&#114;&#105;&#101;&#115;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] SERIES INFANTILES[/COLOR][/B]</title>
+<thumbnail>https://pbs.twimg.com/profile_images/3121099081/435e06fa0cdb34f2fc4a1b045993a030.png</thumbnail>
+<fanart>https://kingstraining.com/wp-content/uploads/2016/07/1jwwo6.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#115;&#101;&#114;&#105;&#101;&#115;&#105;&#110;&#102;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] PROGRAMAS TV[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/9Xyj7Hj.png</thumbnail>
+<fanart>https://i.imgur.com/yW46dLE.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#111;&#114;&#105;&#103;&#105;&#110;&#097;&#108;&#115;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] MONOLOGOS[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/d8t7Cz4.jpg</thumbnail>
+<fanart>https://i.imgur.com/VS5Nqfo.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#100;&#101;&#112;&#111;&#114;&#116;&#101;&#115;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] PELICULAS[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/2fuOslb.png</thumbnail>
+<fanart>https://i.imgur.com/ELZbaPi.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#100;&#114;&#097;&#103;&#111;&#110;&#098;&#097;&#108;&#108;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] VIDEOCLIPS 2017[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param3]</title>
+<link>$doregex[getUrl]</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/videoclip-2017-el-rockero-72075/list,3,9</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/videoclip-2017-el-rockero-72075/list,3,9</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.imgur.com/9Xyj7Hj.png</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR skyblue]========== [/COLOR][COLOR deeppink]========== [/COLOR][COLOR yellow]========== [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/DY3JVVf.png</thumbnail>
+<fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] TELEVISION (TDT) [/B][/COLOR]</title>
+<thumbnail>https://img.hdbox.ws/wp-content/uploads/2016/08/1402652350_m3u1.png</thumbnail>
+<fanart>http://1.bp.blogspot.com/-Y5-p8ps9HMA/VkpIVXOy2XI/AAAAAAABxeQ/LF76Wi5r1xk/s1600/maxresdefaulta1.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#077;&#097;&#103;&#105;&#099;&#080;&#105;/&#109;&#097;&#115;&#116;&#101;&#114;/&#099;&#097;&#110;&#097;&#108;&#101;&#115;&#046;&#120;&#109;&#108;</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deeppink] ZONA PRIVADA[/COLOR][/B]</title>
+<link>NA</link>
+<externallink>$doregex[getinput]</externallink>
+<thumbnail>https://i.imgur.com/oTbu8ck.png</thumbnail>
+<fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
+
+<regex>
+<name>getinput</name>
+
+<expres><![CDATA[#$pyFunction
+import xbmcgui,xbmc, xbmcaddon, time
+
+def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
+    addon = xbmcaddon.Addon('plugin.video.MagyckPi')
+    addon_version = addon.getAddonInfo('version')
+    profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
+
+    solver = InputWindow( txt=txt)
+    solution = solver.get()
+    if solution == 'xxxxxx':
+        return "https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/motogp.xml"
+
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+
+        self.txt = kwargs.get('txt','')
+
+        xbmcgui.WindowXMLDialog.__init__(self)
+        #self.addControl(self.txt)
+        path = xbmcaddon.Addon().getAddonInfo('path')
+        self.kbd = xbmc.Keyboard()
+        self.kbd.setHeading( self.txt)
+
+    def get(self):
+        self.show()
+        time.sleep(2)
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+
+<item>
+<title>[COLOR skyblue]========== [/COLOR][COLOR deeppink]========== [/COLOR][COLOR yellow]========== [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/DY3JVVf.png</thumbnail>
+<fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR skyblue] Avezy[/COLOR][/B][COLOR blue][I] Addon Avezy Necesario[/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
+<thumbnail>http://dimitrology.com/wp-content/uploads/2017/08/icon-5.png</thumbnail>
+<fanart>http://www.androidaba.com/wp-content/uploads/2016/12/ar1.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR skyblue] GAMESTARTER[/B] ( CONSOLAS RETRO)[/COLOR]
+[COLOR blue][I] Addon Necesario,¡¡¡SOLO RASPBERRY!!![/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://script.gamestarter/</jsonrpc>
+<thumbnail>https://img08.deviantart.net/17b9/i/2007/087/c/9/snes_logo_by_orksovaj.png</thumbnail>
+<fanart>https://cdn-images-1.medium.com/max/1400/1*vvrxNe4FPEeVmXLh5sDLDA.png</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR skyblue] ROM COLLECTION BROWSER[/B] ( CONSOLAS RETRO)[/COLOR]
+[COLOR blue][I] Addon Necesario,PARA PC Y ANDROID!![/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://script.games.rom.collection.browser/</jsonrpc>
+<thumbnail>https://img08.deviantart.net/17b9/i/2007/087/c/9/snes_logo_by_orksovaj.png</thumbnail>
+<fanart>http://gearburn.com/wp-content/uploads/2013/07/ROMS.jpeg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR skyblue] INTERNET ARCHIVE ROM BROWSER[/B] ( CONSOLAS RETRO)[/COLOR]
+[COLOR blue][I] Addon Necesario, RETROARCH NECESARIO.[/I][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.program.iarl</jsonrpc>
+<thumbnail>https://img08.deviantart.net/17b9/i/2007/087/c/9/snes_logo_by_orksovaj.png</thumbnail>
+<fanart>https://cdn-images-1.medium.com/max/1400/1*vvrxNe4FPEeVmXLh5sDLDA.png</fanart>
+</item>
