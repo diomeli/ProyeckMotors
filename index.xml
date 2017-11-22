@@ -17,11 +17,11 @@
 
   
 <item>
-<title>[B][COLOR yellow]* [/COLOR][/B][B][COLOR lightseagreen] FANATICS F1 [/B][/COLOR][COLOR darkturquoise][I]-  Ultimo GP : Brasil (Circuito de Interlagos)[/I][/COLOR]</title>
+<title>[B][COLOR yellow]* [/COLOR][/B][B][COLOR lightseagreen] FANATICS F1 [/B][/COLOR][COLOR crimson][I]-  Ultimo GP : Brasil (Circuito de Interlagos)[/I][/COLOR]</title>
 <thumbnail>http://www.thesportsdb.com/images/icons/honours/FIA_Formula_1_World_Championship.png</thumbnail>
 <fanart>http://www.f1fanatic.co.uk/wp-content/uploads/2017/04/XPB_868129_HiRes-e1491629335234.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/formula1.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/formula1.xml</externallink>
 </item>
 
 <item>
@@ -29,7 +29,7 @@
 <thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
 <fanart>https://i.imgur.com/UlIfR3z.png</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/menumotos.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/menumotos.xml</externallink>
 </item>
 
 <item>
@@ -37,7 +37,7 @@
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/sbk.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/sbk.xml</externallink>
 </item>
 
 <item>
@@ -65,7 +65,7 @@
 <thumbnail>https://i.imgur.com/TA7hHAY.jpg</thumbnail>
 <fanart>https://i.imgur.com/hOQkDYz.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/indy.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/indy.xml</externallink>
 </item>
 
 <item>
@@ -73,7 +73,7 @@
 <thumbnail>https://i.imgur.com/wLIcz6w.jpg</thumbnail>
 <fanart>https://i.imgur.com/7xyormT.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/wrx.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/wrx.xml</externallink>
 </item>
 
 <item>
@@ -81,5 +81,5 @@
 <thumbnail>https://i.imgur.com/bCp0G0A.png</thumbnail>
 <fanart>https://i.imgur.com/s29k6eh.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/nascar.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/nascar.xml</externallink>
 </item>
