@@ -54,6 +54,26 @@
 						<fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=jgszGpfZn4k&amp;list=PLOHWG_RxFNvBcUkd_2GMtY3aeEzgQXyXl</page>
+             <cookieJar></cookieJar>
+</regex>
+
+</item>
+
+<item>
+<title>[B][COLOR yellow]* [/COLOR][/B][B][COLOR lightseagreen] WORLD SERIES KARTING [/B][/COLOR][COLOR crimson][I]-  Cup Series[/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deeppink] ->  [/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.imgur.com/WQ84t3A.jpg</thumbnail>
+						<fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
             <page>https://www.youtube.com/watch?v=v9SLXyzCfnE&amp;list=PLrjmhNF7Jz1zbPUzq1V2qCllB_TXex1SY</page>
              <cookieJar></cookieJar>
 </regex>
