@@ -43,8 +43,8 @@
 <item>
 <title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] WORLD SERIES KARTING [/B][/COLOR][COLOR yellow][I]- Cup Series[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.imgur.com/HPlvXgj.jpg</thumbnail>
+<fanart>https://i.imgur.com/rmqQihz.png</fanart>
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
@@ -102,6 +102,14 @@
 <fanart>https://i.imgur.com/s29k6eh.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/nascar.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] PORSCHE CUP[/B][/COLOR][COLOR yellow][I]- 2017[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/1GvXDU4.png<thumbnail>
+<fanart>https://i.imgur.com/maUIX2t.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/porche.xml</externallink>
 </item>
 
 <item>
