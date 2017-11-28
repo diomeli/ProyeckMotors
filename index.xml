@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
   
 <item>
-<title>[COLOR white]Unete al grupo de su hermano mayor en Telegram :[/COLOR][COLOR yellow]     
-            https://t.me/MagyckPi[/COLOR]</title>
+<title>[COLOR white]Unete al grupo en Telegram :[/COLOR][COLOR yellow]     
+            https://t.me/ProyeckMotors[/COLOR]</title>
 <fanart>https://i.ytimg.com/vi/pP2vFUh4lXc/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 </item>
@@ -43,8 +43,8 @@
 <item>
 <title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] WORLD SERIES KARTING [/B][/COLOR][COLOR yellow][I]- Cup Series[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://i.imgur.com/HPlvXgj.jpg</thumbnail>
-<fanart>https://i.imgur.com/rmqQihz.png</fanart>
+<thumbnail>https://i.imgur.com/rmqQihz.png</thumbnail>
+<fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
