@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>                                                [B][COLOR springgreen]Campeonato Formula E : Temporada 3[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: Monaco ePrix 2017 [/COLOR]</title>        
+<urlsolve>https://youtu.be/ohTF0fWPzZQ</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 Qatar Airways Paris ePrix[/COLOR]</title>        
+<urlsolve>https://youtu.be/NRl3waXyA-E</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 Berlin ePrix - Saturday [/COLOR]</title>        
+<urlsolve>https://youtu.be/QogPiRiaeeY</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 Berlin ePrix - Sunday [/COLOR]</title>        
+<urlsolve>https://youtu.be/goiPgcMlN48</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 Qualcomm Formula E New York City ePrix - Saturday [/COLOR]</title>        
+<urlsolve>https://youtu.be/Ux3VEtiuy_o</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 Qualcomm Formula E New York City ePrix - Sunday [/COLOR]</title>        
+<urlsolve>https://youtu.be/4XHF23mt2yo</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 FIA Formula E Hydro-Quebec Montreal ePrix - Saturday [/COLOR]</title>        
+<urlsolve>https://youtu.be/UmwA53FXNXY</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E Full Race Show: 2017 FIA Formula E Hydro-Quebec Montreal ePrix - Sunday [/COLOR]</title>        
+<urlsolve>https://youtu.be/nhreea223yY</urlsolve>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+
+<item>
+<title>
+<title>                                                [B][COLOR springgreen]Campeonato Formula E : Temporada 2[/COLOR][/B]</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>Página [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):            
+
+ import requests
+ import re
+ url='https://www.youtube.com/playlist?list=PLiSlrzIEN5WL5yrnkSmsCmlIA8EqDsvXB'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/playlist?list=PLiSlrzIEN5WL5yrnkSmsCmlIA8EqDsvXB'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white] [/COLOR]</title>        
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white] [/COLOR]</title>        
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white] [/COLOR]</title>        
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white] [/COLOR]</title>        
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
