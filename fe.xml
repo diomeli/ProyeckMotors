@@ -64,9 +64,9 @@
 
 
 <item>
+<title>
 <title>                                                [B][COLOR springgreen]Campeonato Formula E : Temporada 2[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
-
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
