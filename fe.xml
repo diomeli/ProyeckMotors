@@ -82,3 +82,23 @@
 </regex>
 
 </item>
+
+<item>
+<title>                [B][COLOR springgreen]Campeonato Formula E : Temporada 1[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR yellow] ->  [/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.imgur.com/WQ84t3A.jpg</thumbnail>
+						<fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=bXxMqsl5z8o&amp;list=PLiSlrzIEN5WKDNlxyHbYHrpICt2_Fx87F</page>
+             <cookieJar></cookieJar>
+</regex>
+
+</item>
