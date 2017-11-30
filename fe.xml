@@ -64,13 +64,12 @@
 
 
 <item>
-<title>
-<title>                                                [B][COLOR springgreen]Campeonato Formula E : Temporada 2[/COLOR][/B]</title>
+<title>                [B][COLOR springgreen]Campeonato Formula E : Temporada 2[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>Página >      [COLOR yellow] >>[/COLOR][COLOR white] [makelist2.param1][/COLOR]</title>
+<title>Página      [COLOR yellow] >>[/COLOR][COLOR white] [makelist2.param1][/COLOR]</title>
 <link>$doregex[makelist3]</link>
 <referer></referer>
 <thumbnail></thumbnail>
@@ -83,7 +82,7 @@
 <regex>
             <name>makelist3</name>
             <listrepeat><![CDATA[
-                        <title>  >      [COLOR yellow] >>[/COLOR][COLOR white] [makelist3.param2][/COLOR]</title>
+                        <title>      [COLOR yellow] >>[/COLOR][COLOR white] [makelist3.param2][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
                         <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
             ]]></listrepeat>
