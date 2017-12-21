@@ -9,11 +9,27 @@
 </item>
 
 <item>
-<title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] RECORDANDO CARRERAS...[/B][/COLOR][COLOR yellow][I]-  Temporadas 2001...2008 [/I][/COLOR]</title>
-<thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
-<fanart>https://i.imgur.com/kBDTuqu.jpg</fanart>
+<title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] TEMPORADA 2001 [/B][/COLOR][COLOR yellow][I]- Campeón : Valentino Rossi[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/9NB58zA.jpg</thumbnail>
+<fanart>https://i.imgur.com/FIoXsk2.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/carrerasrepe.xml</externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/2001.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] TEMPORADA 2002 [/B][/COLOR][COLOR yellow][I]- Campeón : Valentino Rossi[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/3vEt8r0.jpg</thumbnail>
+<fanart>https://i.imgur.com/BUyhEHJ.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/2002.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR crimson]* [/COLOR][/B][B][COLOR white] TEMPORADA 2003 [/B][/COLOR][COLOR yellow][I]- Campeón : Valentino Rossi [/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/Wp0TPJ3.jpg</thumbnail>
+<fanart>https://i.imgur.com/XWm40z2.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/2003.xml</externallink>
 </item>
 
 
