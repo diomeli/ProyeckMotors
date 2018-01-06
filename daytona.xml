@@ -13,8 +13,8 @@
 <page>http://vergol.com/live1/eurosport.php</page>
 <referer>http://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/</referer>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://www.rusporting.ru/content/partners/eurosport-logo.png</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
 </item>
 
 <item>
@@ -24,8 +24,8 @@
 <page>http://vergol.com/live1/eurosport2.php</page>
 <referer>http://www.vercanalestv.com/ver-eurosport-2-online-y-en-vivo-gratis-las-24-horas/</referer>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://ftpmirror.your.org/pub/wikimedia/images/wikipedia/tr/1/18/Eurosport_2_logo.PNG</thumbnail>
+<fanart>http://ftpmirror.your.org/pub/wikimedia/images/wikipedia/tr/1/18/Eurosport_2_logo.PNG</fanart>
 </item>
 
 <item>
