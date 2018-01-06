@@ -6,7 +6,7 @@
 </item>
 
 <item>
-<title>[COLOR white]====================== [/COLOR][COLOR yellow]====================== [/COLOR]</title>
+<title>[COLOR lime]====================== [/COLOR][COLOR deeppink]====================== [/COLOR]</title>
 <link>http://ignoreme</link>
 <thumbnail>https://i.imgur.com/cVeLiM3.png</thumbnail>
 <fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
@@ -18,7 +18,7 @@
 </item>
 
 <item>
-<title>[COLOR lime][COLOR=silver][B][I]Eurosport [/I][/B][/COLOR]</title>
+<title>[COLOR lime][COLOR=orange][B][I]Eurosport [/I][/B][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
 <name>GetPageUrl</name><expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live1/eurosport.php</page>
@@ -29,7 +29,7 @@
 </item>
 
 <item>
-<title>[COLOR lime][COLOR=silver][B][I]Eurosport 2 [/I][/B][/COLOR]</title>
+<title>[COLOR lime][COLOR=orange][B][I]Eurosport 2 [/I][/B][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-eurosport-2-online-y-en-vivo-gratis-las-24-horas/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
 <name>GetPageUrl</name><expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live1/eurosport2.php</page>
@@ -40,7 +40,7 @@
 </item>
 
 <item>
-<title>[COLOR lime][COLOR=silver][B][I]TDP ( Teledeporte) [/I][/B][/COLOR]</title>
+<title>[COLOR lime][COLOR=orange][B][I]TDP ( Teledeporte) [/I][/B][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-teledeporte-online-y-directo-gratis-y-fuera-de-espana/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
 <name>GetPageUrl</name><expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live1/teledeporte.php</page>
@@ -54,7 +54,7 @@
 
 
 <item>
-<title>[COLOR white]====================== [/COLOR][COLOR yellow]====================== [/COLOR]</title>
+<title>[COLOR lime]====================== [/COLOR][COLOR deeppink]====================== [/COLOR]</title>
 <link>http://ignoreme</link>
 <thumbnail>https://i.imgur.com/cVeLiM3.png</thumbnail>
 <fanart>https://i.imgur.com/92qo7XB.jpg</fanart>
@@ -67,8 +67,8 @@
 
 
 <item>
-<title>          [COLOR lime] >>[/COLOR][COLOR silver] Rally Dakar 2018 - 1ª etapa   [/COLOR][COLOR yellow] - 6/1/18 [/COLOR]</title>        
-<link></link>
+<title>          [COLOR lime] >>[/COLOR][COLOR skyblue] Rally Dakar 2018 - 1ª etapa   [/COLOR][COLOR orange] - 6/1/18 [/COLOR]</title>        
+<link>http://ignoreme.</link>
 <thumbnail>https://i.imgur.com/G2y17Iy.jpg</thumbnail>
 <fanart>https://i.imgur.com/MhT0W3L.jpg</fanart>
 </item>
