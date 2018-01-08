@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR white]   > JOYAS SOBRE RUEDAS ( TEMP. - 12 )  [/COLOR]</title>
+<title>[COLOR yellow]   > Joyas Sobre Ruedas ( Temp. - 12 )  [/COLOR]</title>
 <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/af/18/35/af183559c310a25460ad7b9caf2cf251.jpg</thumbnail>
 <fanart>https://i.imgur.com/ASkRBmu.jpg</fanart>
 <link>http://ignoreme</link>
@@ -9,7 +9,7 @@
 </item>
 
 <item>
-<title>[COLOR white]   > FAST AND LOUD ( GAS MONKEYS )  [/COLOR]</title>
+<title>[COLOR yellow]   > Fast And Loud ( Gas Monkeys )  [/COLOR]</title>
 <thumbnail>http://www.dmax.marca.com/content/dam/discovery/seur/es/dmax/2015/01/fast_loudficha.jpg</thumbnail>
 <fanart>https://mms.businesswire.com/media/20160901005412/en/542162/5/RichardRawlingsDickies.jpg</fanart>
 <link>http://ignoreme</link>
@@ -17,7 +17,7 @@
 </item>
 
 <item>
-<title>[COLOR white]   > THE GRAND TOUR ( TEMP.1 )  [/COLOR]</title>
+<title>[COLOR yellow]   > The Grand Tour ( Temp.1 )  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -55,7 +55,7 @@
 </item>
 
 <item>
-<title>[COLOR white]   > THE GRAND TOUR ( TEMP.2 )  [/COLOR]</title>
+<title>[COLOR yellow]   > The Grand Tour( Temp.2 )  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
