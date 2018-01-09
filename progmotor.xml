@@ -17,7 +17,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]   > The Grand Tour ( Temp.1 )  [/COLOR]</title>
+<title>[COLOR lime]   > The Grand Tour ( Temp.1 )  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -55,7 +55,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]   > The Grand Tour( Temp.2 )  [/COLOR]</title>
+<title>[COLOR lime]   > The Grand Tour( Temp.2 )  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -90,4 +90,20 @@
 </regex>
 <thumbnail>https://i.jeded.com/i/the-grand-tour-first-season.59873.jpg</thumbnail>
 <fanart>http://www.cosasdecoches.com/wp-content/uploads/2015/11/Chapa-y-pintura-2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR deeppink]   > TOP GEAR: Ambitious But Rubbish (TEMP.1)[/COLOR]</title>
+<thumbnail>http://www.seriespapaya.com/uploads/Top-Gear-Ambitious-But-Rubbish20.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/I/81x7hR3mhlL._RI_.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/topgear.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR deeppink]   > TOP GEAR: (TEMP.22)[/COLOR]</title>
+<thumbnail>http://lide.uhk.cz/fim/student/hulidya1/img/top_gear.jpg</thumbnail>
+<fanart>http://www.digitalmx.net/wp-content/uploads/2017/08/top-gear-1.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/toppgear.xml</externallink>
 </item>
