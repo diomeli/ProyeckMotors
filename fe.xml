@@ -26,7 +26,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url='http://kbagi.com/Josele89/motor-618870/03-gp-formulae-gran-premio-de-marrakech-marruecos-2018eurosport,5450195,gallery,1,1.mkv'
+ url='http://kbagi.com/Josele89/motor-618870/03-gp-formulae-gran-premio-de-marrakech-marruecos-2018eurosport,5450195,list,1,1.mkv'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
