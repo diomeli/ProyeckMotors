@@ -7,7 +7,7 @@
 <link>http://ignoreme</link>
 </item>
 
-
+------------------
 <item>
 <title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Marrakech[/COLOR][COLOR yellow] - Opcion 1 [/COLOR]</title>        
 <link>https://archive.org/download/03GPFormulaEGranPremioDeMarrakechMarruecos2018EUROSPORT/03%20-%20GP%20FormulaE%20-%20Gran%20Premio%20de%20Marrakech%20%28Marruecos%29%202018_EUROSPORT.mkv</link>
@@ -63,7 +63,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 </item>
-
+--------------------
 <item>
 <title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera 2: Hong Kong ePrix[/COLOR][COLOR yellow] - (3/12/2017) [/COLOR]</title>        
 <link>https://archive.org/download/AutomovilismoCampeonatoFrmulaE.PruebaHongKong021217/Automovilismo%20-%20Campeonato%20F%C3%B3rmula%20E.%20Prueba%20Hong%20Kong%20-%2003_12_17.mp4</link>
@@ -77,10 +77,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 </item>
+----------------------
 
 
-
-
+-----------------------------------------------------------------------------------------------------------------
 
 <item>
 <title>                [B][COLOR springgreen]Campeonato Formula E : Temporada 3 (2016-2017)[/COLOR][/B]</title>
