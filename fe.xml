@@ -58,7 +58,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Marrakech[/COLOR][COLOR yellow] - Torrent [/COLOR]</title>
+<title>      [COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Marrakech[/COLOR][COLOR lime] - Torrent [/COLOR]</title>
 <link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/03GPFormulaEGranPremioDeMarrakechMarruecos2018EUROSPORT/03GPFormulaEGranPremioDeMarrakechMarruecos2018EUROSPORT_archive.torrent</link>        
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
