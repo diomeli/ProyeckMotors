@@ -17,6 +17,19 @@
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
 </item>
 
+<item>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Acestream</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://www.arenavision.in/30</page>
+<referer>http://www.arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] DAYTONA ( SALIDA) - Acestream [/B][/COLOR]</title>
+</item>
+
 
 <item>
 <title>[COLOR white]====================== [/COLOR][COLOR yellow]====================== [/COLOR]</title>
