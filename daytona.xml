@@ -8,43 +8,12 @@
 
 
 
-<item>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Acestream</link>
-<regex>
-<name>hash</name>
-<expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://www.arenavision.in/30</page>
-<referer>http://www.arenavision.in</referer>
-<setcookie>beget=begetok</setcookie>
-</regex>
-https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
-<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR springgreen] DAYTONA ( SALIDA) - Acestream [/B][/COLOR]</title>
-</item>
+
+
+
 
 <item>
-<title>[B][COLOR yellow]* [/COLOR][/B][COLOR lime][COLOR=orange][B][I]DAYTONA - FOX SPORTS 1 [/I][/B][/COLOR]</title>
-<link>$doregex[GetPageUrl]|Referer=http://www.velocidadatope.com/viewtopic.php?f=32&t=960/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
-<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
-<page>http://www.tusgoles.info/b/fox1.php</page>
-<referer>http://www.velocidadatope.com/viewtopic.php?f=32&t=960/</referer>
-</regex>
-<thumbnail>http://www.rusporting.ru/content/partners/eurosport-logo.png</thumbnail>
-<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
-</item>
-
-<item>
-<title>[B][COLOR yellow]* [/COLOR][/B][COLOR lime][COLOR=orange][B][I]DAYTONA - FOX SPORTS 2[/I][/B][/COLOR]</title>
-<link>$doregex[GetPageUrl]|Referer=http://www.velocidadatope.com/viewtopic.php?f=32&t=960/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
-<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
-<page>http://www.tusgoles.info/b/fox2.php</page>
-<referer>http://www.velocidadatope.com/viewtopic.php?f=32&t=960/</referer>
-</regex>
-<thumbnail>http://www.rusporting.ru/content/partners/eurosport-logo.png</thumbnail>
-<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
-</item>
-
-<item>
-<title>[B][COLOR yellow]* [/COLOR][/B][COLOR lime][COLOR=orange][B][I]DAYTONA - IMSA [/I][/B][/COLOR]</title>
+<title>[B][COLOR yellow]* [/COLOR][/B][COLOR lime][COLOR=orange][B][I]DAYTONA - IMSA - Opcion 2 [/I][/B][/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://www.velocidadatope.com/viewtopic.php?f=32&t=960/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
 <name>GetPageUrl</name><expres>source: '(.*?)'</expres>
 <page>http://www.tusgoles.info/b/stream4.php</page>
