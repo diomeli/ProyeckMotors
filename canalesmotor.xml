@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[COLOR powderblue]----------------- Canales Favoritos -----------------[/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]Movistar Deportes 1[/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-canal-plus-deportes-online-y-en-directo-las-24-en-vivo/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusdeportes1.php</page>
+<referer>http://www.vercanalestv.com/ver-canal-plus-deportes-online-y-en-directo-las-24-en-vivo/</referer>
+</regex>
+<thumbnail>http://www.thelogodb.com/images/media/logo/rwwwxv1441657735.png/medium</thumbnail>
+<fanart>http://i.imgur.com/bcpZZ1S.png</fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]Movistar Deportes 2[/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-canal-plus-deportes-2-online-y-en-directo-las-24h-en-vivo/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusdeportes2.php</page>
+<referer>http://www.vercanalestv.com/ver-canal-plus-deportes-2-online-y-en-directo-las-24h-en-vivo/</referer>
+</regex>
+<thumbnail>http://www.thelogodb.com/images/media/logo/rwwwxv1441657735.png/medium</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I] Canal AXN[/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-axn-gratis-online-en-directo-canal-axn-en-vivo/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/axn.php</page>
+<referer>http://www.vercanalestv.com/ver-axn-gratis-online-en-directo-canal-axn-en-vivo/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]Movistar  F1[/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live3/formula1.php</page>
+<referer>http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]MotoGP [/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live3/motogp.php</page>
+<referer>http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]Bein Sports[/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-bein-sport-espanol-online-y-en-directo-las-24h-por-internet-en-vivo/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live3/beinsport.php</page>
+<referer>http://www.vercanalestv.com/ver-bein-sport-espanol-online-y-en-directo-las-24h-por-internet-en-vivo/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]Eurosport [/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/eurosport.php</page>
+<referer>http://www.vercanalestv.com/ver-canal-eurosport-en-directo-y-online-gratis/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR lime][COLOR=cyan][B][I]Eurosport 2 [/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-eurosport-2-online-y-en-vivo-gratis-las-24-horas/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/eurosport2.php</page>
+<referer>http://www.vercanalestv.com/ver-eurosport-2-online-y-en-vivo-gratis-las-24-horas/</referer>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
