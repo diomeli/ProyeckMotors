@@ -23,6 +23,28 @@
 <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
 </item>
 
+<item>
+<title>[B][COLOR yellow]* [/COLOR][/B][COLOR lime][COLOR=orange][B][I]DAYTONA - FOX SPORTS 1 - Opcion 2 [/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.tusgoles.info/fox1/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://www.tusgoles.info/b/stream4.php</page>
+<referer>http://www.tusgoles.info/b/fox1.php</referer>
+</regex>
+<thumbnail>http://www.rusporting.ru/content/partners/eurosport-logo.png</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
+</item>
+
+<item>
+<title>[B][COLOR yellow]* [/COLOR][/B][COLOR lime][COLOR=orange][B][I]DAYTONA - FOX SPORTS 2 - Opcion 2 [/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.tusgoles.info/fox2/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://www.tusgoles.info/b/fox2.php</page>
+<referer>http://www.tusgoles.info/fox2</referer>
+</regex>
+<thumbnail>http://www.rusporting.ru/content/partners/eurosport-logo.png</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Eurosport_logo.svg/1280px-Eurosport_logo.svg.png</fanart>
+</item>
+
 
 
 
