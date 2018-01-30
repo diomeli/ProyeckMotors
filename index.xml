@@ -15,7 +15,7 @@
 </item>
 
 <item>
-<title>[B][COLOR lime][  ] [/COLOR][/B][B][COLOR yellow] Zona Privada[/COLOR][/B]</title>
+<title>[B][COLOR orange][  ] [/COLOR][/B][B][COLOR pink] Zona Privada[/COLOR][/B]</title>
 <link>NA</link>
 <externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/encrypt.xml$$LSProEncKey= $$</externallink>
 <thumbnail>https://i.imgur.com/oTbu8ck.png</thumbnail>
@@ -29,7 +29,7 @@
 
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  DAKAR 2018 [/B][/COLOR][COLOR deeppink][I]-  Perú , Bolivia , Argentina[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  DAKAR 2018 [/B][/COLOR][COLOR deepskyblue][I]-  Perú , Bolivia , Argentina[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/G2y17Iy.jpg</thumbnail>
 <fanart>https://i.imgur.com/MhT0W3L.jpg</fanart>
 <link>http://ignoreme</link>
@@ -53,7 +53,7 @@
 
   
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  F1 [/B][/COLOR][COLOR deeppink][I]-  Ultimo GP : Abu Dabi (Circuito Yas Marina)[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  F1 [/B][/COLOR][COLOR deepskyblue][I]-  Ultimo GP : Abu Dabi (Circuito Yas Marina)[/I][/COLOR]</title>
 <thumbnail>http://www.thesportsdb.com/images/icons/honours/FIA_Formula_1_World_Championship.png</thumbnail>
 <fanart>http://www.f1fanatic.co.uk/wp-content/uploads/2017/04/XPB_868129_HiRes-e1491629335234.jpg</fanart>
 <link>http://ignoreme</link>
@@ -61,7 +61,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  FORMULA E  [/B][/COLOR][COLOR deeppink][I]-  Ultimo GP : Marrakech - Nuevo!  [/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  FORMULA E  [/B][/COLOR][COLOR deepskyblue][I]-  Ultimo GP : Marrakech - Nuevo!  [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 <link>http://ignoreme</link>
@@ -69,7 +69,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  MOTOGP [/B][/COLOR][COLOR deeppink][I]- Recordando Carreras...(NUEVO)[/COLOR][/I]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  MOTOGP [/B][/COLOR][COLOR deepskyblue][I]- Recordando Carreras...(NUEVO)[/COLOR][/I]</title>
 <thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
 <fanart>https://i.imgur.com/UlIfR3z.png</fanart>
 <link>http://ignoreme</link>
@@ -77,7 +77,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] MUNDIAL SBK [/B][/COLOR][COLOR deeppink][I]- Ultimo GP : Qatar (Losail)[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] MUNDIAL SBK [/B][/COLOR][COLOR deepskyblue][I]- Ultimo GP : Qatar (Losail)[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 <link>http://ignoreme</link>
@@ -85,7 +85,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] WORLD SERIES KARTING [/B][/COLOR][COLOR deeppink][I]- Cup Series[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] WORLD SERIES KARTING [/B][/COLOR][COLOR deepskyblue][I]- Cup Series[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.imgur.com/rmqQihz.png</thumbnail>
 <fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
@@ -105,7 +105,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CAMPEONATO DTM[/B][/COLOR][COLOR deeppink][I]- Ultimo GP : Alemania (Hockenheim)[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CAMPEONATO DTM[/B][/COLOR][COLOR deepskyblue][I]- Ultimo GP : Alemania (Hockenheim)[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.imgur.com/WQ84t3A.jpg</thumbnail>
 <fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
@@ -125,7 +125,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] INDYCAR [/B][/COLOR][COLOR deeppink][I]- Ultimo GP : Detroit [/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] INDYCAR [/B][/COLOR][COLOR deepskyblue][I]- Ultimo GP : Detroit [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/TA7hHAY.jpg</thumbnail>
 <fanart>https://i.imgur.com/hOQkDYz.jpg</fanart>
 <link>http://ignoreme</link>
@@ -157,7 +157,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] NASCAR [/B][/COLOR][COLOR deeppink][I]- Cup Series [/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] NASCAR [/B][/COLOR][COLOR deepskyblue][I]- Cup Series [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/bCp0G0A.png</thumbnail>
 <fanart>https://i.imgur.com/s29k6eh.jpg</fanart>
 <link>http://ignoreme</link>
@@ -165,7 +165,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] PORSCHE CUP[/B][/COLOR][COLOR deeppink][I]- 2017[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] PORSCHE CUP[/B][/COLOR][COLOR deepskyblue][I]- 2017[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/1GvXDU4.png<thumbnail>
 <fanart>https://i.imgur.com/maUIX2t.jpg</fanart>
 <link>http://ignoreme</link>
@@ -173,7 +173,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] X-TRIAL / FIM TRIAL[/B][/COLOR][COLOR deeppink][I]- 2017[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] X-TRIAL / FIM TRIAL[/B][/COLOR][COLOR deepskyblue][I]- 2017[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/ArkEoSE.png<thumbnail>
 <fanart>https://i.imgur.com/8P8BLan.jpg</fanart>
 <link>http://ignoreme</link>
@@ -181,7 +181,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CARRERA DE CAMPEONES[/B][/COLOR][COLOR deeppink][I]- Ultimo : 2017[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CARRERA DE CAMPEONES[/B][/COLOR][COLOR deepskyblue][I]- Ultimo : 2017[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/te8fbLz.jpg<thumbnail>
 <fanart>https://i.imgur.com/FFrebt7.jpg</fanart>
 <link>http://ignoreme</link>
@@ -197,7 +197,7 @@
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] MAS MOTOR [/B][/COLOR][COLOR deeppink][I]- Contenido variado[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] MAS MOTOR [/B][/COLOR][COLOR deepskyblue][I]- Contenido variado[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/JzvyYs7.jpg</thumbnail>
 <fanart>https://i.imgur.com/dAvl92Y.jpg</fanart>
 <link>http://ignoreme</link>
@@ -209,7 +209,7 @@
 
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CANALES  [/B][/COLOR][COLOR deeppink][I]- ARENAVISION[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CANALES  [/B][/COLOR][COLOR deepskyblue][I]- ARENAVISION[/I][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
