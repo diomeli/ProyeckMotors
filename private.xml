@@ -12,7 +12,7 @@
 
 
 <item>
-<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR yellow] ZONA PRIVADA[/COLOR][/B][COLOR orange][B][I] - Canales Motor [/I][/B][/COLOR]</title>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR lime] ZONA PRIVADA[/COLOR][/B][COLOR orange][B][I] - Canales Motor [/I][/B][/COLOR]</title>
 <link>NA</link>
 <externallink>$doregex[getinput]</externallink>
 <thumbnail>https://i.imgur.com/oTbu8ck.png</thumbnail>
@@ -32,7 +32,7 @@ def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     solver = InputWindow( txt=txt)
     solution = solver.get()
     if solution == 'proyeckmotors':
-        return "&#104;&#116;&#116;&#112;&#115;://&#114;&#097;&#119;&#046;&#103;&#105;&#116;&#104;&#117;&#098;&#117;&#115;&#101;&#114;&#099;&#111;&#110;&#116;&#101;&#110;&#116;&#046;&#099;&#111;&#109;/&#082;&#101;&#116;&#114;&#111;&#066;&#108;&#111;&#103;&#080;&#105;/&#080;&#114;&#111;&#121;&#101;&#099;&#107;&#077;&#111;&#116;&#111;&#114;&#115;/&#109;&#097;&#115;&#116;&#101;&#114;/&#099;&#097;&#110;&#097;&#108;&#101;&#115;&#109;&#111;&#116;&#111;&#114;&#046;&#120;&#109;&#108;"
+        return "https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/canalesmotor.xml"
 
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
