@@ -11,7 +11,14 @@
 </item>
 
 <item>
-<title>[B][COLOR orange][+] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Montecarlo [/COLOR][COLOR yellow] - WRC - 28 enero 2018[/COLOR][/B]</title>
+<title>[B][COLOR orange][+] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Montecarlo [/COLOR][COLOR yellow] - Opcion 1 - 28 enero 2018[/COLOR][/B]</title>        
+<link>https://archive.org/download/WRCCampeonatoDelMundoRallyMontecarlo.Resumen/WRC%20-%20Campeonato%20del%20Mundo%2C%20Rally%20Montecarlo.%20Resumen.mp4</link>
+<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
+<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange][+] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Montecarlo [/COLOR][COLOR yellow] - Opcion 2 - 28 enero 2018[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
