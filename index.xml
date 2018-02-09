@@ -38,7 +38,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deepskyblue]  [/B][/COLOR][COLOR lime][I]  [/I][/COLOR]</title>
+        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deepskyblue]  [/B][/COLOR]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
         <fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
