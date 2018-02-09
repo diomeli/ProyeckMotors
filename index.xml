@@ -38,7 +38,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[B][COLOR deepskyblue]  [/B][/COLOR]</title>
+        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deepskyblue][makelist.param2][/COLOR][/B]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
         <fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
@@ -84,6 +84,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
 <fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
 </item>
+
+
 
 <item>
 <title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR lime]  SUPER DIRT TRACK [/B][/COLOR][COLOR deepskyblue][I]- 2017/2018 [/I][/COLOR]</title>        
