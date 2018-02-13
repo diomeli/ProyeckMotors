@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[B][COLOR yellow] >>[/COLOR][COLOR white] Enduro - Basella Xtreme Race  [/COLOR][COLOR yellow] - 2018[/COLOR][B]</title>
+<title>[B][COLOR yellow] >>[/COLOR][COLOR white] Enduro - Basella Xtreme Race  [/COLOR][COLOR yellow] - 2018[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
