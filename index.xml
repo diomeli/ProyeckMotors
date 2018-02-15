@@ -7,11 +7,7 @@
 <link>http://ignoreme</link>
 </item>
 
-<item>
-<title>                     [B][COLOR yellow]-------------------          -------------------          -------------------[/COLOR][/B]</title>
-<fanart></fanart>
-<link>http://ignoreme</link>
-</item>
+
 
 
 <item>
@@ -25,11 +21,6 @@
 
 
 
-<item>
-<title>                     [B][COLOR yellow]-------------------          -------------------          -------------------[/COLOR][/B]</title>
-<fanart></fanart>
-<link>http://ignoreme</link>
-</item>
 
 <item>
 <title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR orange]  G-SERIES [/B][/COLOR][COLOR deepskyblue][I]- 2018 [/I][/COLOR]</title>
@@ -115,11 +106,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>                     [B][COLOR yellow]-------------------          -------------------          -------------------[/COLOR][/B]</title>
-<fanart></fanart>
-<link>http://ignoreme</link>
-</item>
+
 
 
   
@@ -276,17 +263,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<title>                     [B][COLOR yellow]-------------------          -------------------          -------------------[/COLOR][/B]</title>
-<fanart></fanart>
-<link>http://ignoreme</link>
-</item>
 
 
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange] CANALES  [/B][/COLOR][COLOR deepskyblue][I]- ARENAVISION[/I][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/arena.xml</externallink>
-</item>
+
