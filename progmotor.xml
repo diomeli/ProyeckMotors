@@ -164,7 +164,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime][  ] - [/COLOR][/B][B][COLOR deepskyblue] Grand Prix Drivers (Temporadas 1 y 3)[/COLOR][/B]</title>
+<title>[B][COLOR lime][  ] - [/COLOR][/B][B][COLOR deepskyblue] Grand Prix Drivers (Temporada 1)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
