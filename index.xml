@@ -23,7 +23,7 @@
 
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR white]  G-SERIES [/B][/COLOR][COLOR yellow][I]- 2018 [/I][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR orange]  G-SERIES [/B][/COLOR][COLOR deepskyblue][I]- 2018 [/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
@@ -79,7 +79,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR silver]  SUPER DIRT TRACK [/B][/COLOR][COLOR yellow][I]- 2017/2018 [/I][/COLOR]</title>        
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR lime]  SUPER DIRT TRACK [/B][/COLOR][COLOR deepskyblue][I]- 2017/2018 [/I][/COLOR]</title>        
 <link>https://archive.org/download/1513728472582/1513728472582.mp4</link>
 <thumbnail>https://www.dirttrackmoto.com/wp-content/uploads/2016/05/Cartel-Superprestigio-Dirt-Track-Barcelona.jpg</thumbnail>
 <fanart>https://www.dirttrackmoto.com/wp-content/uploads/2016/12/Superprestigio-2016-Marc-Marquez-HRC.jpg</fanart>
@@ -87,7 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR white]  DAKAR 2018 [/B][/COLOR][COLOR yellow][I]-  Perú , Bolivia , Argentina[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  DAKAR 2018 [/B][/COLOR][COLOR deepskyblue][I]-  Perú , Bolivia , Argentina[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/G2y17Iy.jpg</thumbnail>
 <fanart>https://i.imgur.com/MhT0W3L.jpg</fanart>
 <link>http://ignoreme</link>
@@ -96,7 +96,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver]  PROGRAMAS DE MOTOR [/B][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  PROGRAMAS DE MOTOR [/B][/COLOR]</title>
 <thumbnail>https://cloud10.todocoleccion.online/coleccionismo/tc/2014/11/02/19/46007078.jpg</thumbnail>
 <fanart>http://www.cosasdecoches.com/wp-content/uploads/2015/11/Chapa-y-pintura-2.jpg</fanart>
 <link>http://ignoreme</link>
@@ -111,7 +111,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
   
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR white]  F1 [/B][/COLOR][COLOR yellow][I]-  Comenzamos 2018!![/I][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR orange]  F1 [/B][/COLOR][COLOR deepskyblue][I]-  Comenzamos 2018!![/I][/COLOR]</title>
 <thumbnail>http://www.thesportsdb.com/images/icons/honours/FIA_Formula_1_World_Championship.png</thumbnail>
 <fanart>http://www.f1fanatic.co.uk/wp-content/uploads/2017/04/XPB_868129_HiRes-e1491629335234.jpg</fanart>
 <link>http://ignoreme</link>
@@ -119,7 +119,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR silver]  FORMULA E  [/B][/COLOR][COLOR yellow][I]-  Ultimo GP : Santiago - Nuevo!  [/I][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR lime]  FORMULA E  [/B][/COLOR][COLOR deepskyblue][I]-  Ultimo GP : Santiago - Nuevo!  [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 <link>http://ignoreme</link>
@@ -127,7 +127,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR white]  MOTOGP [/B][/COLOR][COLOR yellow][I]- Recordando Carreras...(NUEVO)[/COLOR][/I]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  MOTOGP [/B][/COLOR][COLOR deepskyblue][I]- Recordando Carreras...(NUEVO)[/COLOR][/I]</title>
 <thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
 <fanart>https://i.imgur.com/UlIfR3z.png</fanart>
 <link>http://ignoreme</link>
@@ -135,7 +135,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver] MUNDIAL SBK [/B][/COLOR][COLOR yellow][I]- Ultimo GP : Qatar (Losail)[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] MUNDIAL SBK [/B][/COLOR][COLOR deepskyblue][I]- Ultimo GP : Qatar (Losail)[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 <link>http://ignoreme</link>
@@ -143,7 +143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR white] WORLD SERIES KARTING [/B][/COLOR][COLOR yellow][I]- Cup Series[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange] WORLD SERIES KARTING [/B][/COLOR][COLOR deepskyblue][I]- Cup Series[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.imgur.com/rmqQihz.png</thumbnail>
 <fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
@@ -163,7 +163,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver] CAMPEONATO DTM[/B][/COLOR][COLOR yellow][I]- Ultimo GP : Alemania (Hockenheim)[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] CAMPEONATO DTM[/B][/COLOR][COLOR deepskyblue][I]- Ultimo GP : Alemania (Hockenheim)[/I][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.imgur.com/WQ84t3A.jpg</thumbnail>
 <fanart>https://i.imgur.com/pjOFqX7.jpg</fanart>
@@ -183,7 +183,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR white] INDYCAR [/B][/COLOR][COLOR yellow][I]- Ultimo GP : Detroit [/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange] INDYCAR [/B][/COLOR][COLOR deepskyblue][I]- Ultimo GP : Detroit [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/TA7hHAY.jpg</thumbnail>
 <fanart>https://i.imgur.com/hOQkDYz.jpg</fanart>
 <link>http://ignoreme</link>
@@ -191,7 +191,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver] FIA World Rallycross Championship [/B][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] FIA World Rallycross Championship [/B][/COLOR]</title>
 <thumbnail>https://i.imgur.com/wLIcz6w.jpg</thumbnail>
 <fanart>https://i.imgur.com/7xyormT.jpg</fanart>
 <link>http://ignoreme</link>
@@ -199,7 +199,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR white] WRC - World Rally Championship [/B][/COLOR][COLOR yellow][I]- Rally Montecarlo [/I][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR orange] WRC - World Rally Championship [/B][/COLOR][COLOR deepskyblue][I]- Rally Montecarlo [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
 <fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
 <link>http://ignoreme</link>
@@ -207,7 +207,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver] DAKAR 2017 [/B][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] DAKAR 2017 [/B][/COLOR]</title>
 <thumbnail>https://i.imgur.com/occFwQL.jpg</thumbnail>
 <fanart>https://i.imgur.com/giPvhBe.jpg</fanart>
 <link>http://ignoreme</link>
@@ -215,7 +215,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR white] NASCAR [/B][/COLOR][COLOR yellow][I]- Cup Series [/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange] NASCAR [/B][/COLOR][COLOR deepskyblue][I]- Cup Series [/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/bCp0G0A.png</thumbnail>
 <fanart>https://i.imgur.com/s29k6eh.jpg</fanart>
 <link>http://ignoreme</link>
@@ -223,7 +223,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver] PORSCHE CUP[/B][/COLOR][COLOR yellow][I]- 2017[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] PORSCHE CUP[/B][/COLOR][COLOR deepskyblue][I]- 2017[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/1GvXDU4.png<thumbnail>
 <fanart>https://i.imgur.com/maUIX2t.jpg</fanart>
 <link>http://ignoreme</link>
@@ -231,7 +231,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR white] X-TRIAL / FIM TRIAL[/B][/COLOR][COLOR yellow][I]- 2018[/I][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR orange] X-TRIAL / FIM TRIAL[/B][/COLOR][COLOR deepskyblue][I]- 2018[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/ArkEoSE.png<thumbnail>
 <fanart>https://i.imgur.com/8P8BLan.jpg</fanart>
 <link>http://ignoreme</link>
@@ -239,7 +239,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR silver] CARRERA DE CAMPEONES[/B][/COLOR][COLOR yellow][I]- Ultimo : 2018[/I][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR lime] CARRERA DE CAMPEONES[/B][/COLOR][COLOR deepskyblue][I]- Ultimo : 2018[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/te8fbLz.jpg<thumbnail>
 <fanart>https://i.imgur.com/FFrebt7.jpg</fanart>
 <link>http://ignoreme</link>
@@ -247,7 +247,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR white] RED BULL X-GAMES SPORTS [/B][/COLOR]</title>
+<title>[B][COLOR yellow][!!] [/COLOR][/B][B][COLOR orange] RED BULL X-GAMES SPORTS [/B][/COLOR]</title>
 <thumbnail>https://i.imgur.com/KILylsR.jpg</thumbnail>
 <fanart>https://i.imgur.com/Ij7ondC.jpg</fanart>
 <link>http://ignoreme</link>
@@ -255,7 +255,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR silver] MAS MOTOR [/B][/COLOR][COLOR yellow][I]- Contenido variado[/I][/COLOR]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] MAS MOTOR [/B][/COLOR][COLOR deepskyblue][I]- Contenido variado[/I][/COLOR]</title>
 <thumbnail>https://i.imgur.com/JzvyYs7.jpg</thumbnail>
 <fanart>https://i.imgur.com/dAvl92Y.jpg</fanart>
 <link>http://ignoreme</link>
