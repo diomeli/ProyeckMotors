@@ -11,7 +11,7 @@
 </item>
 
 <item>
-<title>[B][COLOR orange][+] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Suecia[/COLOR][COLOR yellow] - Opcion 1 - 20 febrero 2018[/COLOR][/B]</title>        
+<title>[B][COLOR orange][+] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Suecia[/COLOR][COLOR yellow] -  20 febrero 2018[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeSuecia.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Suecia.%20Resumen.mp4$$lsname=[COLOR lime]WRC - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR gold]WRC - Opcion 2 [/COLOR]</link>
