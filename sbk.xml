@@ -9,8 +9,8 @@
 <item>
 <title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>        
 <multilink>
-<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%201%C2%AA%20Carrera.mp4</link>
-<link>$doregex[getUrl]</link>
+<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%201%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]1ª Carrera- Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime] 1ª Carrera - Opcion 2 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -47,8 +47,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%202%C2%AA%20Carrera.mp4</link>
-<link>$doregex[getUrl]</link>
+<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%202%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]2ª Carrera- Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]2ª Carrera - Opcion 2 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
