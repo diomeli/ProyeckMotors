@@ -20,95 +20,6 @@
 
 
 
-
-
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  G-Series [/B][/COLOR][COLOR deepskyblue][I]- 2018 [/I][/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deepskyblue][makelist.param2][/COLOR][/B]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
-        <fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/Josele89/g-series-2018-626281/list,1,1</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
-<fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
-</item>
-
-
-
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  Super Dirt Track[/B][/COLOR][COLOR deepskyblue][I]- 2017/2018 [/I][/COLOR]</title>        
-<link>https://archive.org/download/1513728472582/1513728472582.mp4</link>
-<thumbnail>https://www.dirttrackmoto.com/wp-content/uploads/2016/05/Cartel-Superprestigio-Dirt-Track-Barcelona.jpg</thumbnail>
-<fanart>https://www.dirttrackmoto.com/wp-content/uploads/2016/12/Superprestigio-2016-Marc-Marquez-HRC.jpg</fanart>
-</item>
-
-
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  Dakar 2018 [/B][/COLOR][COLOR deepskyblue][I]-  Perú , Bolivia , Argentina[/I][/COLOR]</title>
-<thumbnail>https://i.imgur.com/G2y17Iy.jpg</thumbnail>
-<fanart>https://i.imgur.com/MhT0W3L.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>http://bit.ly/2AZXOiv</externallink>
-</item>
-
-
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  Programas De Motor [/B][/COLOR]</title>
-<thumbnail>https://cloud10.todocoleccion.online/coleccionismo/tc/2014/11/02/19/46007078.jpg</thumbnail>
-<fanart>http://www.cosasdecoches.com/wp-content/uploads/2015/11/Chapa-y-pintura-2.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/progmotor.xml</externallink>
-</item>
-
-
-
-
-
-
-
   
 <item>
 <title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  Formula 1 [/B][/COLOR][COLOR deepskyblue][I]-  Comenzamos 2018!![/I][/COLOR]</title>
@@ -244,6 +155,87 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/FFrebt7.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/cdc.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  G-Series [/B][/COLOR][COLOR deepskyblue][I]- 2018 [/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deepskyblue][makelist.param2][/COLOR][/B]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
+        <fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
+<page>http://kbagi.com/Josele89/g-series-2018-626281/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+<regex><name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://kbagi.com/'
+ url='http://kbagi.com[makelist.param1]'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
+ nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://rincondelmotor.com/wp-content/uploads/2017/11/g-series-2018-pre-0211.jpg</thumbnail>
+<fanart>http://staticv2.revistascratch.com//images/noticia/credit-andorra-gseries-2018-el-ano-del-gran-despegue_full.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  Super Dirt Track[/B][/COLOR][COLOR deepskyblue][I]- 2017/2018 [/I][/COLOR]</title>        
+<link>https://archive.org/download/1513728472582/1513728472582.mp4</link>
+<thumbnail>https://www.dirttrackmoto.com/wp-content/uploads/2016/05/Cartel-Superprestigio-Dirt-Track-Barcelona.jpg</thumbnail>
+<fanart>https://www.dirttrackmoto.com/wp-content/uploads/2016/12/Superprestigio-2016-Marc-Marquez-HRC.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange]  Dakar 2018 [/B][/COLOR][COLOR deepskyblue][I]-  Perú , Bolivia , Argentina[/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/G2y17Iy.jpg</thumbnail>
+<fanart>https://i.imgur.com/MhT0W3L.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>http://bit.ly/2AZXOiv</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  Programas De Motor [/B][/COLOR]</title>
+<thumbnail>https://cloud10.todocoleccion.online/coleccionismo/tc/2014/11/02/19/46007078.jpg</thumbnail>
+<fanart>http://www.cosasdecoches.com/wp-content/uploads/2015/11/Chapa-y-pintura-2.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/progmotor.xml</externallink>
 </item>
 
 <item>
