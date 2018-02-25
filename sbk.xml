@@ -1,39 +1,201 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR gold]          [COLOR lime]MUNDIAL SBK 2017[/COLOR][/B]</title>
+<title>[B][COLOR gold]          [COLOR lime]Motociclismo - Campeonato del Mundo Superbike 2018[/COLOR][/B]</title>
 <link>http://ignoreme</link>
 </item>
 
 
 <item>
-<title>                               [COLOR white]* GP QATAR [/COLOR][COLOR yellow] - 03 y 04 de Noviembre[/COLOR]</title>
+<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>        
+<multilink>
+<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%201%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]1ª Carrera - Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]1ª Carrera - Opcion 2 [/COLOR]</link>
+ 
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://kbagi.com/'
+ url='http://kbagi.com/Josele89/motor-618870/motociclismo-campeonato-del-mundo-superbike-1-carrera,5626199,list,1,1.mp4'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'Josele89' , 'Password' : 'barcelona'}
+ nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</link>
+<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%202%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]2ª Carrera - Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]2ª Carrera - Opcion 2 [/COLOR]</link>
+ 
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://kbagi.com/'
+ url='http://kbagi.com/Josele89/motor-618870/motociclismo-campeonato-del-mundo-superbike-2-carrera,5626210,list,1,1.mp4'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'Josele89' , 'Password' : 'barcelona'}
+ nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</link>
+<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Supersport/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Supersport.mp4$$lsname=[COLOR orange]Carrera Supersport- Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera Supersport - Opcion 2 [/COLOR]</link>
+ 
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://kbagi.com/'
+ url='http://kbagi.com/Josele89/motor-618870/motociclismo-campeonato-del-mundo-superbike-supersport,5626202,list,1,1.mp4'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'Josele89' , 'Password' : 'barcelona'}
+ nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</link>
+<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Superpole/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Superpole.mp4$$lsname=[COLOR orange]Superpole - Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]Superpole - Opcion 2 [/COLOR]</link>
+ 
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://kbagi.com/'
+ url='http://kbagi.com/Josele89/motor-618870/motociclismo-campeonato-del-mundo-superbike-superpole,5626198,list,1,1.mp4'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'Josele89' , 'Password' : 'barcelona'}
+ nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+</link>
+</multilink>
+<thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
+<fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>             [COLOR white]* GP QATAR [/COLOR][COLOR yellow] - 03 y 04 de Noviembre[/COLOR]</title>
 <link>http://ignoreme</link>
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar   [/COLOR][COLOR yellow] - Superpole[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar   [/COLOR][COLOR yellow] - Superpole[/COLOR] </title>        
 <link>https://archive.org/download/13SBKSUPERPOLELOSAILQatar/13%20-%20SBK%20SUPERPOLE%20-%20LOSAIL%20%28Qatar%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar   [/COLOR][COLOR yellow] - Carrera 1[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar   [/COLOR][COLOR yellow] - Carrera 1[/COLOR] </title>        
 <link>https://archive.org/download/13SBKCARRERA1LOSAILQatar/13%20-%20SBK%20CARRERA%201%20-%20LOSAIL%20%28Qatar%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar  [/COLOR][COLOR yellow]  - Carrera 2[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar  [/COLOR][COLOR yellow]  - Carrera 2[/COLOR] </title>        
 <link>https://archive.org/download/13SBKCARRERA1LOSAILQatar/13%20-%20SBK%20CARRERA%202%20-%20LOSAIL%20%28Qatar%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar  [/COLOR][COLOR yellow]  - Supersport[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Qatar  [/COLOR][COLOR yellow]  - Supersport[/COLOR] </title>        
 <link>https://archive.org/download/13SBKCARRERA1LOSAILQatar/13%20-%20SUPERSPORT%20-%20LOSAIL%20%28Qatar%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
@@ -52,26 +214,26 @@
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Jerez   [/COLOR][COLOR yellow] - Superpole[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Jerez   [/COLOR][COLOR yellow] - Superpole[/COLOR] </title>        
 <link>https://archive.org/download/12SBKSUPERPOLEJEREZEspaa/12%20-%20SBK%20SUPERPOLE%20-%20JEREZ%20%28Espa%C3%B1a%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 </item>
 
 <item>
-<title>                          [COLOR yellow]   Carrera 1 No disponible:[/COLOR]</title>
+<title>[COLOR yellow]   Carrera 1 No disponible:[/COLOR]</title>
 <link>http://ignoreme</link>
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Jerez   [/COLOR][COLOR yellow] - Carrera 2[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Jerez   [/COLOR][COLOR yellow] - Carrera 2[/COLOR] </title>        
 <link>https://archive.org/download/12SBKSUPERPOLEJEREZEspaa/12%20-%20SBK%20CARRERA%202%20-%20JEREZ%20%28Espa%C3%B1a%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
 </item>
 
 <item>
-<title>              [COLOR deeppink] *  [/COLOR][COLOR white]  - GP Jerez  [/COLOR][COLOR yellow]  - Supersport[/COLOR] </title>        
+<title>[COLOR deeppink] *  [/COLOR][COLOR white]  - GP Jerez  [/COLOR][COLOR yellow]  - Supersport[/COLOR] </title>        
 <link>https://archive.org/download/12SBKSUPERPOLEJEREZEspaa/12%20-%20SUPERSPORT%20-%20JEREZ%20%28Espa%C3%B1a%29.mp4</link>
 <thumbnail>https://i.imgur.com/8NLEcX8.png</thumbnail>
 <fanart>https://i.imgur.com/RciowNP.jpg</fanart>
