@@ -9,8 +9,7 @@
 <item>
 <title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] - Carrera [/COLOR][/B]</title>        
 <multilink>
-<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%201%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]1ª Carrera - Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR lime]1ª Carrera - Opcion 2 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]1ª Carrera - Opcion 1 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -47,8 +46,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-<link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%202%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]2ª Carrera - Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR lime]2ª Carrera - Opcion 2 [/COLOR]</link>
+<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/MotociclismoCampeonatoDelMundoSuperbike.1Carrera_archive.torrent$$lsname=[COLOR orange]1ª Carrera - Torrent [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR lime]2ª Carrera - Opcion 1 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -85,6 +84,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
+<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/MotociclismoCampeonatoDelMundoSuperbike.2Carrera_archive.torrent$$lsname=[COLOR orange]2ª Carrera - Torrent [/COLOR]</link>
 </multilink>
 <thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
 <fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
