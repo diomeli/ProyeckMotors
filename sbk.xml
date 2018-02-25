@@ -91,7 +91,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>   [B][COLOR orange][-] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] - Superpole/Supersport [/COLOR][/B]</title>        
+<title>   [B][COLOR orange][+] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] - Superpole/Supersport [/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Supersport/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Supersport.mp4$$lsname=[COLOR orange]Carrera Supersport- Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera Supersport - Opcion 2 [/COLOR]</link>
