@@ -25,7 +25,7 @@
 import xbmcgui,xbmc, xbmcaddon, time
 
 def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
-    addon = xbmcaddon.Addon('plugin.video.MagyckPi')
+    addon = xbmcaddon.Addon('plugin.video.ProyeckMotors')
     addon_version = addon.getAddonInfo('version')
     profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 
