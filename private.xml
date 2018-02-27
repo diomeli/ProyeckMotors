@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[B][COLOR powderblue]PIDE LA CONTRASEÑA EN NUESTRO GRUPO: http://t.me/ProyeckMotors[/COLOR][/B]</title>
+<title>[B][COLOR white]PIDE LA CONTRASEÑA EN NUESTRO GRUPO: http://t.me/ProyeckMotors[/COLOR][/B]</title>
 <link>http://ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -32,7 +32,7 @@ def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     solver = InputWindow( txt=txt)
     solution = solver.get()
     if solution == 'proyeckmotors':
-        return "https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/canalesmotor.xml"
+        return "http://bit.ly/2ozwOSX"
 
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
