@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-  
+ 
+ 
 <item>
-<title>[COLOR lime]Unete al grupo en Telegram :[/COLOR][COLOR yellow]     
-            https://t.me/ProyeckMotors[/COLOR]</title>
-<fanart>https://i.ytimg.com/vi/pP2vFUh4lXc/maxresdefault.jpg</fanart>
-<link>http://ignoreme</link>
+<title>[COLOR yellow]¡¡LEEME IMPORTANTE sobre[/COLOR][COLOR deeppink] Proyeck[/COLOR][COLOR lime]Motors[/COLOR]!!</title>
+<link>$doregex[text]</link>
+<regex>
+<name>text</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    dialog.textviewer('BIENVENIDOS A [COLOR deeppink] Proyeck[/COLOR][COLOR lime]Motors[/COLOR] !', '[COLOR white]Gracias por utilizar el Addon, puedes estar a la ultima en nuestro grupo de Telegram [COLOR yellow]http://t.me/ProyeckMotors[/COLOR].Para acceder a la zona privada tenemos que hacer reset al Addon y luego introducir la contraseña [COLOR lime] proyeckmotors[/COLOR].Por último informar que todo el contenido del addon es de fuentes publicas y que es totalmente [COLOR yellow]Gratuito[/COLOR].Gracias y que disfruteis ')
+]]></expres>
+<page></page>
+</regex>
 </item>
 
 
