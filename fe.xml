@@ -8,11 +8,15 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow][03][/COLOR][COLOR white]Formula E - GP: Santiago de Chile[/COLOR][COLOR yellow] - Carrera [/COLOR][/B]</title>        
-<multilink>
-<link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Opción 1[/COLOR]</link>
+<title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][COLOR yellow] - Opcion 1 [/COLOR][/B]</title>        
+<link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4</link>
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
+</item>
 
-<link>$doregex[getUrl]$$lsname=[COLOR yellow]Opción 2[/COLOR]</link>
+<item>
+<title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][COLOR yellow] - Opcion 2 [/COLOR][/B]</title>
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -48,10 +52,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile_archive.torrent$$lsname=[COLOR lime]Torrent[/COLOR]</link>        
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
-</multilink>
+</item>
+
+<item>
+<title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][COLOR lime] - Torrent [/COLOR][/B]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile_archive.torrent</link>        
+<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 </item>
 
 <item>
