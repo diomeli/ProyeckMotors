@@ -10,7 +10,7 @@
 <item>
 <title>[B][COLOR yellow][05] - [/COLOR][/B][B][COLOR white]Formula E - GP: Mexico Hnos.Rodriguez[/COLOR][/B]</title>        
 <multilink>
-<link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Clasificación - Opcion 1 [/COLOR]</link>
+<link>https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05%20-%20Clasificacion%20FormulaE%20-%20Gran%20Premio%20de%20Mexico%20%20%28Hrnos.%20Rodriguez%29%202018_EUROSPORT_VAT.mp4$$lsname=[COLOR yellow]Clasificación - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR yellow]Clasificación - Opcion 2 [/COLOR]</link>
  
 <regex>
