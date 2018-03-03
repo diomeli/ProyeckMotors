@@ -11,6 +11,7 @@
 <title>[B][COLOR yellow][03][/COLOR][COLOR white]Formula E - GP: Santiago de Chile[/COLOR][COLOR yellow] - Carrera [/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Opción 1[/COLOR]</link>
+
 <link>$doregex[getUrl]$$lsname=[COLOR yellow]Opción 2[/COLOR]</link>
  
 <regex>
