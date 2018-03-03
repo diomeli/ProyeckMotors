@@ -8,10 +8,10 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow][04] - [/COLOR][/B][B][COLOR white]Formula E - GP: Mexico Hnos Rodriguez[/COLOR][/B]</title>        
+<title>[B][COLOR yellow][05] - [/COLOR][/B][B][COLOR white]Formula E - GP: Mexico Hnos Rodriguez[/COLOR][/B]</title>        
 <multilink>
-<link>https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05%20-%20Clasificacion%20FormulaE%20-%20Gran%20Premio%20de%20Mexico%20%20%28Hrnos.%20Rodriguez%29%202018_EUROSPORT_VAT.mp4$$lsname=[COLOR yellow]Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR yellow]Opcion 2 [/COLOR]</link>
+<link>https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05%20-%20Clasificacion%20FormulaE%20-%20Gran%20Premio%20de%20Mexico%20%20%28Hrnos.%20Rodriguez%29%202018_EUROSPORT_VAT.mp4$$lsname=[COLOR yellow]Clasificación - Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR yellow]Clasificación - Opcion 2 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803_archive.torrent$$lsname=[COLOR lime] Torrent [/COLOR]</link> 
+<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803_archive.torrent$$lsname=[COLOR lime]Clasificación - Torrent [/COLOR]</link> 
 </multilink>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
