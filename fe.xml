@@ -10,8 +10,8 @@
 <item>
 <title>[B][COLOR yellow][05] - [/COLOR][/B][B][COLOR white]Formula E - GP: Mexico Hnos.Rodriguez[/COLOR][/B]</title>        
 <multilink>
-<link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Clasificación  Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR yellow]Clasificación  Opcion 2 [/COLOR]</link>
+<link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Clasificación - Opcion 1 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR yellow]Clasificación - Opcion 2 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -20,7 +20,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url='http://kbagi.com/Josele89/motor-618870/05-clasificacion-formulae-gran-premio-de-mexico-hrnos-rodriguez-2018eurosportvat,5659750,list,1,1.mkv'
+ url='http://kbagi.com/Josele89/motor-618870/05-clasificacion-formulae-gran-premio-de-mexico-hrnos-rodriguez-2018eurosportvat,5659897,list,1,1.mp4'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile_archive.torrent$$lsname=[COLOR lime]Clasificación   Torrent [/COLOR]</link> 
+<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile_archive.torrent$$lsname=[COLOR lime]Clasificación - Torrent [/COLOR]</link> 
 </multilink>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
@@ -56,7 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR yellow][04] - [/COLOR][/B][B][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][/B]</title>        
+<title>[B][COLOR yellow][04] - [/COLOR][/B][B][COLOR white]Formula E - GP: Santiago de Chile[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR yellow]Opcion 2 [/COLOR]</link>
@@ -105,7 +105,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR yellow][03] - [/COLOR][/B][B][COLOR white] Formula E - Carrera : Marrakech [/COLOR][COLOR yellow] -  Carrera[/COLOR][/B]</title>        
+<title>[B][COLOR yellow][03] - [/COLOR][/B][B][COLOR white] Formula E - GP: Marrakech [/COLOR][COLOR yellow] -  Carrera[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/03GPFormulaEGranPremioDeMarrakechMarruecos2018EUROSPORT/03%20-%20GP%20FormulaE%20-%20Gran%20Premio%20de%20Marrakech%20%28Marruecos%29%202018_EUROSPORT.mkv$$lsname=[COLOR yellow]Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR yellow] Opcion 2 [/COLOR]</link>
@@ -155,14 +155,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR yellow][02][/COLOR][COLOR white]Formula E - Carrera 2: Hong Kong ePrix[/COLOR][COLOR yellow] - (3/12/2017) [/COLOR][/B]</title>        
+<title>[B][COLOR yellow][02] - [/COLOR][COLOR white]Formula E - Carrera 2: Hong Kong ePrix[/COLOR][COLOR yellow] - (3/12/2017) [/COLOR][/B]</title>        
 <link>https://archive.org/download/AutomovilismoCampeonatoFrmulaE.PruebaHongKong021217/Automovilismo%20-%20Campeonato%20F%C3%B3rmula%20E.%20Prueba%20Hong%20Kong%20-%2003_12_17.mp4</link>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 </item>
 
 <item>
-<title>[B][COLOR yellow][01][/COLOR][COLOR white]Formula E - Carrera 1: Hong Kong ePrix [/COLOR][COLOR yellow]- (2/12/2017) [/COLOR][/B]</title>        
+<title>[B][COLOR yellow][01] - [/COLOR][COLOR white]Formula E - Carrera 1: Hong Kong ePrix [/COLOR][COLOR yellow]- (2/12/2017) [/COLOR][/B]</title>        
 <link>https://archive.org/download/AutomovilismoCampeonatoFrmulaE.PruebaHongKong021217/Automovilismo%20-%20Campeonato%20F%C3%B3rmula%20E.%20Prueba%20Hong%20Kong%20-%2002_12_17.mp4</link>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
