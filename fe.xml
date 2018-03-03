@@ -12,7 +12,7 @@
 <title>[B][COLOR yellow][03] - [/COLOR][/B][B][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4$$lsname=[COLOR yellow]Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR yellow] Opcion 2 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR yellow]Opcion 2 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -51,71 +51,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </link>
 <link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile_archive.torrent$$lsname=[COLOR lime] Torrent [/COLOR]</link> 
 </multilink>
-<thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
-<fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
-</item>
-
-<item>
-<title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][COLOR yellow] - Opcion 1 [/COLOR][/B]</title>        
-<link>https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/Automovilismo%20-%20Campeonato%20FIA%20F%C3%B3rmula%20E%2C%20prueba%20Santiago%20de%20Chile.mp4</link>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 </item>
 
-<item>
-<title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][COLOR yellow] - Opcion 2 [/COLOR][/B]</title>
-<link>$doregex[getUrl]</link>
- 
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com/Josele89/motor-618870/automovilismo-campeonato-fia-formula-e-prueba-santiago-de-chile,5546694,list,1,1.mp4'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
-<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
-</item>
 
-<item>
-<title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Santiago de Chile[/COLOR][COLOR lime] - Torrent [/COLOR][/B]</title>
-<link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile/AutomovilismoCampeonatoFIAFrmulaEPruebaSantiagoDeChile_archive.torrent</link>        
-<thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
-<fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
-</item>
 
-<item>
-<title>    [B][COLOR yellow]------------------- [/COLOR][/B]]</title>
-<fanart></fanart>
-<link>http://ignoreme</link>
-</item>
 
 <item>
 <title>[B][COLOR yellow] >>[/COLOR][COLOR white]Formula E - Carrera : Marrakech[/COLOR][COLOR yellow] - Opcion 1 [/COLOR][/B]</title>        
