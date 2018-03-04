@@ -135,16 +135,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/wrc.xml</externallink>
 </item>
 
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] Dakar2017 [/B][/COLOR]</title>
-<thumbnail>https://i.imgur.com/occFwQL.jpg</thumbnail>
-<fanart>https://i.imgur.com/giPvhBe.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>http://bit.ly/2mCqvOc</externallink>
-</item>
 
 <item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange] Nascar [/COLOR][COLOR deepskyblue][I]- Cup Series [/I][/COLOR][/B]</title>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR orange] Nascar [/COLOR][COLOR deepskyblue][I]- Cup Series 2018 [/I][/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/bCp0G0A.png</thumbnail>
 <fanart>https://i.imgur.com/s29k6eh.jpg</fanart>
 <link>http://ignoreme</link>
@@ -247,6 +240,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://bit.ly/2AZXOiv</externallink>
 </item>
 
+<item>
+<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] Dakar2017 [/B][/COLOR]</title>
+<thumbnail>https://i.imgur.com/occFwQL.jpg</thumbnail>
+<fanart>https://i.imgur.com/giPvhBe.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>http://bit.ly/2mCqvOc</externallink>
+</item>
+
 
 <item>
 <title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime]  Programas De Motor[/COLOR][/B]</title>
@@ -264,13 +265,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>http://bit.ly/2mylchX</externallink>
 </item>
 
-<item>
-<title>[B][COLOR cadetblue]* [/COLOR][/B][B][COLOR lime] Mas Motor...[/COLOR][COLOR deepskyblue][I]- Contenido variado[/I][/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/JzvyYs7.jpg</thumbnail>
-<fanart>https://i.imgur.com/dAvl92Y.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/RetroBlogPi/MagicPi/master/kblock.xml</externallink>
-</item>
 
 
 

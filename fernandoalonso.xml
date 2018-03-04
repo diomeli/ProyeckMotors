@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[COLOR red][01][/COLOR][COLOR white]- Gran premio de Hungria (Hungaroring) 2003[/COLOR]</title>
+<title>[B][COLOR greenyellow][01][/COLOR][COLOR white]- Gran premio de Hungria (Hungaroring) 2003[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -51,7 +51,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][02][/COLOR][COLOR white]- Gran Premio De Malasia (Sepang) 2005[/COLOR]</title>
+<title>[B][COLOR greenyellow][02][/COLOR][COLOR white]- Gran Premio De Malasia (Sepang) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -93,7 +93,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][03][/COLOR][COLOR white]- Gran Premio De Bahrain (Sakhir) 2005[/COLOR]</title>
+<title>[B][COLOR greenyellow][03][/COLOR][COLOR white]- Gran Premio De Bahrain (Sakhir) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -135,7 +135,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][04][/COLOR][COLOR white]- Gran Premio De San Marino (Imola) 2005[/COLOR]</title>
+<title>[B][COLOR greenyellow][04][/COLOR][COLOR white]- Gran Premio De San Marino (Imola) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -177,7 +177,49 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][05][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][05][/COLOR][COLOR white]- Gran Premio De Europa (Nürburgring) 2005[/COLOR][/B]</title>
+<link>$doregex[getUrl]</link>
+ 
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests ,json
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://kbagi.com/'
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/07-f1-gp-formula-1-gran-premio-de-europa-nurburgring-2005,5664916,list,1,1.mpg'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
+ nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[B][COLOR greenyellow][06][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -219,7 +261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][06][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][07][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -261,7 +303,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][07][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][08][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -303,7 +345,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][08][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][09][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -345,7 +387,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][09][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][10][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -387,7 +429,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][10][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][11][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -429,7 +471,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][11][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][12][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -471,7 +513,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][12][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][13][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -513,7 +555,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][13][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][14][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -555,7 +597,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][14][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][15][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -597,7 +639,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][15][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][16][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -639,7 +681,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][16][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][17][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -681,7 +723,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][17][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][18][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -723,7 +765,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][18][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][19][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -765,7 +807,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][19][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][20][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -807,7 +849,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][20][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][21][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -849,7 +891,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][21][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][22][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -891,7 +933,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][22][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][23][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -933,7 +975,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][23][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][24][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -975,7 +1017,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][24][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][25][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1017,7 +1059,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][25][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][26][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1059,7 +1101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][26][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][27][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1101,7 +1143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][27][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][28][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1143,7 +1185,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][28][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][29][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1185,7 +1227,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][29][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][30][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1227,7 +1269,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][30][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][31][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1269,49 +1311,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][31][/COLOR][COLOR white][/COLOR]</title>
-<link>$doregex[getUrl]</link>
- 
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url=''
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>[COLOR red][32][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR greenyellow][32][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
