@@ -14,14 +14,14 @@
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Abu Dabi -  CARRERA [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Abu Dabi -  CARRERA [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Abu.Dhabi.Carrera.2017.MovistarF1.1080p.EventosHQ/Formula.1.GP.Abu.Dhabi.Carrera.2017.MovistarF1.1080p.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/LdqsVhY.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Abu dabi -  CARRERA [/COLOR][COLOR yellow] ( Opción 2 ) [/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Abu dabi -  CARRERA [/COLOR][COLOR yellow] ( Opción 2 ) [/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-abu-dhabi-carrera-2017-movistarf1-1080p-eventoshq,1698892,gallery,1,1.mp4</link>
 <thumbnail>https://i.imgur.com/LdqsVhY.png</thumbnail>
 <fanart></fanart>
@@ -52,14 +52,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Abu Dabi -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Abu Dabi -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Abu.Dhabi.Clasificacion.2017.MovistarF1.720p.EventosHQ/Formula.1.GP.Abu.Dhabi.Clasificacion.2017.MovistarF1.720p.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/LdqsVhY.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Abu dabi -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 2 ) [/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Abu dabi -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 2 ) [/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-abu-dhabi-clasificacion-2017-movistarf1-720p-eventoshq,1691920,list,1,1.mp4</link>
 <thumbnail>https://i.imgur.com/LdqsVhY.png</thumbnail>
 <fanart></fanart>
@@ -97,7 +97,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CARRERA [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CARRERA [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Brasil.Carrera.2017.720p.MovistarF1.EventosHQ/Formula.1.GP.Brasil.Carrera.2017.720p.MovistarF1.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/uFdrp8q.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
@@ -105,7 +105,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CARRERA [/COLOR][COLOR yellow]( Opción 2 ) [/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CARRERA [/COLOR][COLOR yellow]( Opción 2 ) [/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-brasil-carrera-2017-720p-movistarf1-eventoshq,1634559,list,1,1.mp4</link>
 <thumbnail>https://i.imgur.com/uFdrp8q.png</thumbnail>
 <fanart></fanart>
@@ -136,7 +136,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CLASIFICACION[/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CLASIFICACION[/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/19F1ClasificacionFormula1GranPremioDeBrasilInterlagos2017720PEdu34/19%20-%20F1%20Clasificacion%20-%20Formula%201%20-%20Gran%20Premio%20de%20Brasil%20%28Interlagos%292017_720P_edu34.MKV</link>
 <thumbnail>https://i.imgur.com/uFdrp8q.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
@@ -144,7 +144,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CLASIFICACION [/COLOR][COLOR yellow]( Opción 2 ) [/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Brasil -  CLASIFICACION [/COLOR][COLOR yellow]( Opción 2 ) [/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-brasil-clasificacion-2017-720p-movistarf1-eventoshq,1631304,list,1,1.mp4</link>
 <thumbnail>https://i.imgur.com/uFdrp8q.png</thumbnail>
 <fanart></fanart>
@@ -182,7 +182,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CARRERA[/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CARRERA[/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Mexico.Carrera.2017.MovistarF1.EventosHQ/Formula.1.GP.Mexico.Carrera.2017.MovistarF1.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/WuJUMpT.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
@@ -190,7 +190,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CARRERA [/COLOR][COLOR yellow] ( Opción 2 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CARRERA [/COLOR][COLOR yellow] ( Opción 2 )[/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-carreras-90233/formula-1-gp-mexico-carrera-2017-movistarf1-eventoshq,1574854,list,1,1.mp4</link>
 <thumbnail>https://i.imgur.com/WuJUMpT.png</thumbnail>
 <fanart></fanart>
@@ -221,14 +221,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Mexico.Clasificacion.2017.MovistarF1.EventosHQ/Formula.1.GP.Mexico.Clasificacion.2017.MovistarF1.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/WuJUMpT.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 2 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Mexico -  CLASIFICACION [/COLOR][COLOR yellow] ( Opción 2 )[/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-carreras-90233/formula-1-gp-mexico-clasificacion-2017-movistarf1-eventoshq,1568898,list,1,1.mp4</link>
 <thumbnail>https://i.imgur.com/WuJUMpT.png</thumbnail>
 <fanart></fanart>
@@ -266,14 +266,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP USA -  CARRERA [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP USA -  CARRERA [/COLOR][COLOR yellow] ( Opción 1 )[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.USA.Carrera.2017.MovistarF1.720p.EventosHQ/Formula.1.GP.USA.Carrera.2017.MovistarF1.720p.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/0FKXVhT.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP USA-  CARRERA [/COLOR][COLOR yellow] ( Opción 2 )[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP USA-  CARRERA [/COLOR][COLOR yellow] ( Opción 2 )[/COLOR]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-carreras-90233</link>
 <thumbnail>ttps://i.imgur.com/0FKXVhT.png</thumbnail>
 <fanart></fanart>
@@ -304,7 +304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP USA -  CLASIFICACIÓN[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP USA -  CLASIFICACIÓN[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.USA.Clasificacion.2017.MovistarF1.720p.EventosHQ/Formula.1.GP.USA.Clasificacion.2017.MovistarF1.720p.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/0FKXVhT.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
@@ -318,14 +318,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Japón -  CARRERA[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Japón -  CARRERA[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Japon.Carrera.2017.720p.MovistarF1.EventosHQ/Formula.1.GP.Japon.Carrera.2017.720p.MovistarF1.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/Nj8to8l.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Japón -  CLASIFICACIÓN[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Japón -  CLASIFICACIÓN[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Japon.Clasificacion.2017.MovistarF1.720p.EventosHQ/Formula.1.GP.Japon.Clasificacion.2017.MovistarF1.720p.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/Nj8to8l.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
@@ -340,14 +340,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Malasia -  CARRERA[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Malasia -  CARRERA[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Malasia.Carrera.2017.720p.MovistarF1.EventosHQ/Formula.1.GP.Malasia.Carrera.2017.720p.MovistarF1.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/5h11PkJ.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
 </item>
 
 <item>
-<title>               [COLOR crimson] >>[/COLOR][COLOR white] GP Malasia -  CLASIFICACIÓN[/COLOR]</title>
+<title>[COLOR crimson] >>[/COLOR][COLOR white] GP Malasia -  CLASIFICACIÓN[/COLOR]</title>
 <link>https://archive.org/download/Formula.1.GP.Malasia.Clasificacion.2017.720p.MovistarF1.EventosHQ/Formula.1.GP.Malasia.Clasificacion.2017.720p.MovistarF1.EventosHQ.mp4</link>
 <thumbnail>https://i.imgur.com/5h11PkJ.png</thumbnail>
 <fanart>http://eskipaper.com/images/f1-wallpaper-1.jpg</fanart>
