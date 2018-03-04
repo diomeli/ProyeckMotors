@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[COLOR red][01][/COLOR][COLOR white]- Gran premio de Hungria (Hungaroring) 2003[/COLOR]</title>
+<title>[B][COLOR #FF0017][01][/COLOR][COLOR white]- Gran premio de Hungria (Hungaroring) 2003[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -51,7 +51,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][02][/COLOR][COLOR white]- Gran Premio De Malasia (Sepang) 2005[/COLOR]</title>
+<title>[B][COLOR #FF0017][02][/COLOR][COLOR white]- Gran Premio De Malasia (Sepang) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -93,7 +93,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][03][/COLOR][COLOR white]- Gran Premio De Bahrain (Sakhir) 2005[/COLOR]</title>
+<title>[B][COLOR #FF0017][03][/COLOR][COLOR white]- Gran Premio De Bahrain (Sakhir) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -135,7 +135,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][04][/COLOR][COLOR white]- Gran Premio De San Marino (Imola) 2005[/COLOR]</title>
+<title>[B][COLOR #FF0017][04][/COLOR][COLOR white]- Gran Premio De San Marino (Imola) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -177,7 +177,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][05][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][05][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -219,7 +219,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][06][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][06][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -261,7 +261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][07][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][07][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -303,7 +303,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][08][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][08][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -345,7 +345,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][09][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][09][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -387,7 +387,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][10][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][10][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -429,7 +429,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][11][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][11][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -471,7 +471,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][12][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][12][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -513,7 +513,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][13][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][13][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -555,7 +555,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][14][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][14][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -597,7 +597,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][15][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][15][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -639,7 +639,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][16][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][16][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -681,7 +681,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][17][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][17][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -723,7 +723,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][18][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][18][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -765,7 +765,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][19][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][19][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -807,7 +807,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][20][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][20][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -849,7 +849,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][21][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][21][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -891,7 +891,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][22][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][22][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -933,7 +933,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][23][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][23][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -975,7 +975,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][24][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][24][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1017,7 +1017,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][25][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][25][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1059,7 +1059,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][26][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][26][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1101,7 +1101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][27][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][27][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1143,7 +1143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][28][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][28][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1185,7 +1185,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][29][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][29][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1227,7 +1227,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][30][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][30][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1269,7 +1269,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][31][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][31][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -1311,7 +1311,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR red][32][/COLOR][COLOR white][/COLOR]</title>
+<title>[B][COLOR #FF0017][32][/COLOR][COLOR white][/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
