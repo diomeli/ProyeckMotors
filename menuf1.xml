@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
@@ -37,4 +38,45 @@
 <fanart>https://i.imgur.com/kikeIiC.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/fernandoalonso.xml</externallink>
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][COLOR white] TEST PRETEMPORADA [/COLOR][COLOR yellow] [/COLOR][/B]</title>       
+<link>http://ignoreme</link>
+<thumbnail>http://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/02/26/15196338334235.jpg</thumbnail>
+<fanart>https://as01.epimg.net/motor/imagenes/2018/02/26/formula_1/1519628525_652775_1519646476_noticia_normal.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/testf1.xml</externallink>
+</item>
+
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR white] PRETEMPORADA 2018 [/B][/COLOR][COLOR lime][I]-  Presentaciones [/I][/COLOR]</title>
+<thumbnail>https://www.actualidadmotor.com/wp-content/uploads/2017/02/f1-2017.jpg</thumbnail>
+<fanart>https://cdn-9.motorsport.com/images/mgl/0rKMOGy2/s8/f1-mclaren-mcl32-launch-2017-fernando-alonso-mclaren-is-interviewed-by-the-media.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/presentacionf1.xml</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR white] TEMPORADA 2017 [/B][/COLOR][COLOR lime][I]-  Ultimo GP : Abu Dabi (Circuito Yas Marina)[/I][/COLOR]</title>
+<thumbnail>http://www.thesportsdb.com/images/icons/honours/FIA_Formula_1_World_Championship.png</thumbnail>
+<fanart>http://www.f1fanatic.co.uk/wp-content/uploads/2017/04/XPB_868129_HiRes-e1491629335234.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/formula1.xml</externallink>
+</item>
+
+
+
+<item>
+<title>[B][COLOR orange]* [/COLOR][/B][B][COLOR yellow] ESPECIAL CARRERAS FERNANDO ALONSO [/B][/COLOR][COLOR lime][I] Todas las victorias [/I][/COLOR]</title>
+<thumbnail>https://i.imgur.com/tFlrHF3.jpg</thumbnail>
+<fanart>https://i.imgur.com/kikeIiC.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/fernandoalonso.xml</externallink>
+>>>>>>> origin/master
 </item>
