@@ -5,9 +5,14 @@
 <link>http://ignoreme</link>
 </item>
 
+<item>
+<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+</item>
+
 
 <item>
-<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>        
+<title>[B][COLOR orange]   [+] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero - carrera 1[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%201%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]Carrera 1 - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera 1 - Opcion 2 [/COLOR]</link>
@@ -46,7 +51,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-</link>
+</multilink>
+<thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
+<fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR orange]   [+] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero - carrera 2[/COLOR][/B]</title>        
+<multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%202%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]Carrera 2 - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera 2 - Opcion 2 [/COLOR]</link>
  
@@ -84,7 +98,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-</link>
+</multilink>
+<thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
+<fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[B][COLOR orange]   [+] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero - supersport[/COLOR][/B]</title>        
+<multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Supersport/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Supersport.mp4$$lsname=[COLOR orange]Carrera Supersport- Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera Supersport - Opcion 2 [/COLOR]</link>
  
@@ -122,7 +146,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-</link>
+</multilink>
+<thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
+<fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR orange]   [+] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero - superpole[/COLOR][/B]</title>        
+<multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Superpole/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Superpole.mp4$$lsname=[COLOR orange]Superpole - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Superpole - Opcion 2 [/COLOR]</link>
  
