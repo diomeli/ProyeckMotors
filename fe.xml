@@ -144,7 +144,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR yellow][03] - [/COLOR][/B][B][COLOR white] Formula E - GP: Marrakech [/COLOR][COLOR yellow] -  Carrera[/COLOR][/B]</title>        
+<title>[B][COLOR yellow][03] - [/COLOR][/B][B][COLOR white] Formula E - GP: Marrakech [/COLOR][COLOR yellow] [/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/03GPFormulaEGranPremioDeMarrakechMarruecos2018EUROSPORT/03%20-%20GP%20FormulaE%20-%20Gran%20Premio%20de%20Marrakech%20%28Marruecos%29%202018_EUROSPORT.mkv$$lsname=[COLOR yellow]Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR yellow] Opcion 2 [/COLOR]</link>
