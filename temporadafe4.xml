@@ -11,7 +11,7 @@
 <title>[B][COLOR yellow][05] - [/COLOR][/B][B][COLOR white]Formula E - GP: Mexico Hnos Rodriguez[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MexicoCityEPrixMundialDeFormulaET1718/Mexico%20City%20ePrix%20-%20Mundial%20de%20Formula%20E%20T17%2018.mp4$$lsname=[COLOR yellow]Carrera - Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR yellow]Carrera - Opcion 3 [/COLOR]</link>
+<link>$doregex[getUrl]$$lsname=[COLOR yellow]Carrera - Opcion 2 [/COLOR]</link>
  
 <regex>
 <name>getUrl</name>
@@ -85,7 +85,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-</link>
 <link>plugin://plugin.video.quasar/play?uri=https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803_archive.torrent$$lsname=[COLOR lime]Clasificacion - Torrent [/COLOR]</link> 
 </multilink>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
