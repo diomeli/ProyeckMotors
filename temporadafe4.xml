@@ -8,12 +8,12 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow][05] - [/COLOR][/B][B][COLOR white]Formula E - GP: Mexico Hnos Rodriguez[/COLOR]</title>
+<title>[B][COLOR yellow][05] - [/COLOR][/B][B][COLOR white]GP: Mexico Hnos Rodriguez[/COLOR][/B]</title>
 <link>http://ignoreme</link>
 </item>
 
 <item>
-<title>[B][COLOR yellow]   [+] - [/COLOR][/B][B][COLOR white]Carrera [/COLOR][/B]</title>        
+<title>[B][COLOR yellow]   [+][/COLOR][/B][B][COLOR white]Carrera [/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MexicoCityEPrixMundialDeFormulaET1718/Mexico%20City%20ePrix%20-%20Mundial%20de%20Formula%20E%20T17%2018.mp4$$lsname=[COLOR yellow]Carrera - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR yellow]Carrera - Opcion 2 [/COLOR]</link>
@@ -60,7 +60,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR yellow]   [+] - [/COLOR][/B][B][COLOR white] Clasificacion [/COLOR][/B]</title>        
+<title>[B][COLOR yellow]   [+][/COLOR][/B][B][COLOR white] Clasificacion [/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/05ClasificacionFormulaEGranPremioDeMexicoHrnos.Rodriguez2018EUROSPORTVAT_201803/05%20-%20Clasificacion%20FormulaE%20-%20Gran%20Premio%20de%20Mexico%20%20%28Hrnos.%20Rodriguez%29%202018_EUROSPORT_VAT.mp4$$lsname=[COLOR yellow]Clasificacion - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR yellow]Clasificacion - Opcion 2 [/COLOR]</link>
