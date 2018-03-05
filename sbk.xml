@@ -12,7 +12,7 @@
 
 
 <item>
-<title>[B][COLOR orange]      [+] - [/COLOR][/B][B][COLOR orange]Carrera 1[/COLOR][/B]</title>        
+<title>[B][COLOR orange]       [+][/COLOR][/B][B][COLOR orange]Carrera 1[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.1Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%201%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]Carrera 1 - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera 1 - Opcion 2 [/COLOR]</link>
@@ -59,7 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR orange]      [+] - [/COLOR][/B][B][COLOR orange]Carrera 2[/COLOR][/B]</title>        
+<title>[B][COLOR orange]       [+][/COLOR][/B][B][COLOR orange]Carrera 2[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.2Carrera/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%202%C2%AA%20Carrera.mp4$$lsname=[COLOR orange]Carrera 2 - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera 2 - Opcion 2 [/COLOR]</link>
@@ -107,7 +107,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR orange]      [+] - [/COLOR][/B][B][COLOR orange]Supersport[/COLOR][/B]</title>        
+<title>[B][COLOR orange]       [+][/COLOR][/B][B][COLOR orange]Supersport[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Supersport/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Supersport.mp4$$lsname=[COLOR orange]Carrera Supersport- Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Carrera Supersport - Opcion 2 [/COLOR]</link>
@@ -153,7 +153,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR orange]      [+] - [/COLOR][/B][B][COLOR orange]Superpole[/COLOR][/B]</title>        
+<title>[B][COLOR orange]       [+][/COLOR][/B][B][COLOR orange]Superpole[/COLOR][/B]</title>        
 <multilink>
 <link>https://archive.org/download/MotociclismoCampeonatoDelMundoSuperbike.Superpole/Motociclismo%20-%20Campeonato%20del%20Mundo%20Superbike.%20Superpole.mp4$$lsname=[COLOR orange]Superpole - Opcion 1 [/COLOR]</link>
 <link>$doregex[getUrl]$$lsname=[COLOR lime]Superpole - Opcion 2 [/COLOR]</link>
