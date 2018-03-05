@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[B][COLOR greenyellow][01][/COLOR][COLOR white]- Gran premio de Hungria (Hungaroring) 2003[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][01][/COLOR][COLOR white]- GP de Hungria (Hungaroring) 2003[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -51,7 +51,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][02][/COLOR][COLOR white]- Gran Premio De Malasia (Sepang) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][02][/COLOR][COLOR white]- GP de Malasia (Sepang) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -93,7 +93,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][03][/COLOR][COLOR white]- Gran Premio De Bahrain (Sakhir) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][03][/COLOR][COLOR white]- GP de Bahrain (Sakhir) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -135,7 +135,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][04][/COLOR][COLOR white]- Gran Premio De San Marino (Imola) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][04][/COLOR][COLOR white]- GP de San Marino (Imola) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -177,7 +177,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][05][/COLOR][COLOR white]- Gran Premio De Europa (Nürburgring) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][05][/COLOR][COLOR white]- GP de Europa (Nürburgring) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -219,7 +219,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][06][/COLOR][COLOR white]- Gran Premio De Francia (Magny-Cours) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][06][/COLOR][COLOR white]- GP de Francia (Magny-Cours) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -261,7 +261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][07][/COLOR][COLOR white]- Gran Premio De Alemania (Hockenheimring) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][07][/COLOR][COLOR white]- GP de Alemania (Hockenheimring) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -303,7 +303,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][08][/COLOR][COLOR white]- Gran Premio De Brasil (Interlagos) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][08][/COLOR][COLOR white]- GP de Brasil (Interlagos) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -345,7 +345,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][09][/COLOR][COLOR white]- Gran Premio De China (Shanghai) 2005[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][09][/COLOR][COLOR white]- GP de China (Shanghai) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -387,7 +387,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][10][/COLOR][COLOR white][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][10][/COLOR][COLOR white]- GP de Barhein 2006[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -397,7 +397,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/01-f1-gp-formula-1-gran-premio-de-barhein-2006,5669007,list,1,1.avi'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -429,7 +429,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][11][/COLOR][COLOR white][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][11][/COLOR][COLOR white]- GP de Australia (Melbourne) 2006[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -439,7 +439,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/03-f1-gp-formula-1-gran-premio-de-australia-melbourne-2006,5668984,list,1,1.avi'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
