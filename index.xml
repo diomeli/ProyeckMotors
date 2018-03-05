@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  
@@ -11,7 +11,7 @@
 def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
-    dialog.textviewer('BIENVENIDOS A [COLOR deeppink] Proyeck[/COLOR][COLOR lime]Motors[/COLOR] !', '[COLOR white]Gracias por utilizar el Addon, puedes estar a la ultima en nuestro grupo de Telegram [COLOR yellow]http://t.me/ProyeckMotors[/COLOR]. Para acceder a la zona privada tenemos que hacer reset al Addon y luego introducir la contraseña [COLOR lime] proyeckmotors[/COLOR]. Por último informar que todo el contenido del addon es de fuentes publicas y que es totalmente [COLOR yellow]Gratuito[/COLOR]. Gracias y que disfruteis ')
+    dialog.textviewer('BIENVENIDOS A [COLOR deeppink] Proyeck[/COLOR][COLOR lime]Motors[/COLOR] !', '[COLOR white]Gracias por utilizar el Addon, puedes estar a la ultima en nuestro grupo de Telegram [COLOR yellow]http://t.me/ProyeckMotors[/COLOR]. Para acceder a la zona privada tenemos que hacer reset al Addon y luego introducir la contraseña [COLOR lime] proyeckmotors[/COLOR]. Por último informar que todo el contenido del addon es de fuentes publicas y que es totalmente [COLOR yellow]Gratuito[/COLOR]. Estamos trabajando en la zona privada por lo que estará [COLOR red] Fuera de servicio[/COLOR] temporalmente. Gracias y que disfruteis ')
 ]]></expres>
 <page></page>
 </regex>
