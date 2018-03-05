@@ -220,7 +220,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][06][/COLOR][COLOR white][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][06][/COLOR][COLOR white]- Gran Premio De Francia (Magny-Cours) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -230,7 +230,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/10-f1-gp-formula-1-gran-premio-de-francia-magny-cours-2005,5668285,list,1,1.mpg'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -262,7 +262,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][07][/COLOR][COLOR white][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][07][/COLOR][COLOR white]- Gran Premio De Alemania (Hockenheimring) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -272,7 +272,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/12-f1-gp-formula-1-gran-premio-de-alemania-hockenheimring-2005,5668344,list,1,1.mpg'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -304,7 +304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][08][/COLOR][COLOR white][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][08][/COLOR][COLOR white]- Gran Premio De Brasil (Interlagos) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -314,7 +314,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/17-f1-gp-formula-1-gran-premio-de-brasil-interlagos-2005,5668288,list,1,1.mpg'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -346,7 +346,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][09][/COLOR][COLOR white][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][09][/COLOR][COLOR white]- Gran Premio De China (Shanghai) 2005[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -356,7 +356,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/fernando-alonso-633029/19-f1-gp-formula-1-gran-premio-de-china-shanghai-2005,5668284,list,1,1.avi'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
