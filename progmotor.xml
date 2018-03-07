@@ -4,7 +4,7 @@
 
 
 <item>
-<title>[B][COLOR lime][  ] - [/COLOR] HoraF1[/COLOR][/B]</title>
+<title>[B][COLOR lime][  ] - [/COLOR][COLOR white] HoraF1[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
@@ -60,7 +60,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime][  ] - [/COLOR] Joyas Sobre Ruedas ( Temp. - 12 )  [/COLOR][/B]</title>
+<title>[B][COLOR lime][  ] - [/COLOR][COLOR white] Joyas Sobre Ruedas ( Temp. - 12 )  [/COLOR][/B]</title>
 <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/af/18/35/af183559c310a25460ad7b9caf2cf251.jpg</thumbnail>
 <fanart>https://i.imgur.com/ASkRBmu.jpg</fanart>
 <link>http://ignoreme</link>
@@ -68,7 +68,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR deeppink][  ] - [/COLOR] Fast And Loud ( Gas Monkeys )  [/COLOR][/B]</title>
+<title>[B][COLOR deeppink][  ] - [/COLOR][COLOR white] Fast And Loud ( Gas Monkeys )  [/COLOR][/B]</title>
 <thumbnail>http://www.dmax.marca.com/content/dam/discovery/seur/es/dmax/2015/01/fast_loudficha.jpg</thumbnail>
 <fanart>https://mms.businesswire.com/media/20160901005412/en/542162/5/RichardRawlingsDickies.jpg</fanart>
 <link>http://ignoreme</link>
@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR orange][  ] - [/COLOR] The Grand Tour ( Temp.1 )  [/COLOR][/B]</title>
+<title>[B][COLOR orange][  ] - [/COLOR][COLOR white] The Grand Tour ( Temp.1 )  [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -114,7 +114,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR lime][  ] - [/COLOR] The Grand Tour ( Temp.2 )  [/COLOR][/B]</title>
+<title>[B][COLOR lime][  ] - [/COLOR][COLOR white] The Grand Tour ( Temp.2 )  [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
@@ -168,7 +168,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR deeppink][  ] - [/COLOR] TOP GEAR: Ambitious But Rubbish (TEMP.1)[/COLOR][/B]</title>
+<title>[B][COLOR deeppink][  ] - [/COLOR][COLOR white] TOP GEAR: Ambitious But Rubbish (TEMP.1)[/COLOR][/B]</title>
 <thumbnail>http://www.seriespapaya.com/uploads/Top-Gear-Ambitious-But-Rubbish20.jpg</thumbnail>
 <fanart>https://images-na.ssl-images-amazon.com/images/I/81x7hR3mhlL._RI_.jpg</fanart>
 <link>http://ignoreme</link>
@@ -176,7 +176,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR deeppink][  ] - [/COLOR] TOP GEAR: (TEMP.22)[/COLOR][/B]</title>
+<title>[B][COLOR deeppink][  ] - [/COLOR][COLOR white] TOP GEAR: (TEMP.22)[/COLOR][/B]</title>
 <thumbnail>http://lide.uhk.cz/fim/student/hulidya1/img/top_gear.jpg</thumbnail>
 <fanart>http://www.digitalmx.net/wp-content/uploads/2017/08/top-gear-1.jpg</fanart>
 <link>http://ignoreme</link>
@@ -184,7 +184,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR lime][  ] - [/COLOR] El Hormiguero[/COLOR][/B]</title>
+<title>[B][COLOR lime][  ] - [/COLOR][COLOR white] El Hormiguero[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
@@ -239,7 +239,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime][  ] - [/COLOR][/B][B][COLOR deepskyblue] Grand Prix Drivers (Temporada 1)[/COLOR][/B]</title>
+<title>[B][COLOR lime][  ] - [/COLOR][COLOR white][/B][B][COLOR deepskyblue] Grand Prix Drivers (Temporada 1)[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
