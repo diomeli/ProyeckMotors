@@ -10,7 +10,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR deepskyblue][makelist.param2][/COLOR]</title>
+        <title>[B][COLOR orange]* [/COLOR][/B][B][COLOR white][makelist.param2][/COLOR][/B]</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://i.imgur.com/CNrGS7m.jpg</thumbnail>
         <fanart>https://i.imgur.com/uCR1X41.jpg</fanart>
