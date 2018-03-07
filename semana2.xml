@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 26/02/18[/COLOR][COLOR red] - No Disponible[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 26/02/18[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -12,7 +12,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/hora-f1-633674/f1-2018-hora-f1-260218-27d,5680972,list,1,1.mp4'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -44,7 +44,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 27/02/18[/COLOR][COLOR red] - No Disponible[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 27/02/18[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -54,7 +54,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url=''
+ url='http://kbagi.com/Josele89/hora-f1-633674/f1-2018-hora-f1-270218-26d,5680911,list,1,1.mp4'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
