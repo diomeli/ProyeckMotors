@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 26/02/18[/COLOR][COLOR greenyellow] [/B]</title>
+<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 26/02/18[/COLOR] [/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
