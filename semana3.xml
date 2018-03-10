@@ -172,7 +172,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 08/03/18[/COLOR][/B]</title>
+<title>[B][COLOR greenyellow] - [/COLOR][COLOR white] Día 09/03/18[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
