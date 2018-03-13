@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<item>
+<title>[B]   [COLOR greenyellow] - Siguelo en directo aquí en :[/COLOR][/B] [COLOR yellow][B][I]Movistar  F1[/I][/B][/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live3/formula1.php</page>
+<referer>http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/</referer>
+</regex>
+<thumbnail>https://i.imgur.com/3oivrMQ.jpg</thumbnail>
+</item>
+
+-------------------------------------------------
 
 <item>
     <title>[B][COLOR red][01][/COLOR][COLOR white] Gran Premio Australia[/COLOR][COLOR greenyellow] - Merlbourne[/COLOR][/B] </title>
