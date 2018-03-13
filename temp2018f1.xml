@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[COLOR red][B][I]Canal F1[/I][/B][/COLOR][B][COLOR greenyellow] - En Directo![/COLOR][/B]</title>
+<title>[COLOR yellow][B][I]Canal F1[/I][/B][/COLOR][B][COLOR greenyellow] - En Directo![/COLOR][/B]</title>
 <link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
 <name>GetPageUrl</name><expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live3/formula1.php</page>
@@ -14,7 +14,7 @@
 -------------------------------------------------
 
 <item>
-    <title>[B][COLOR red][01][/COLOR][COLOR white] Gran Premio Australia[/COLOR][COLOR greenyellow] - Merlbourne[/COLOR][/B] </title>
+    <title>[B][COLOR greenyellow][01][/COLOR][COLOR white] Gran Premio Australia[/COLOR][COLOR greenyellow] - Merlbourne[/COLOR][/B] </title>
     <link>http://ignorame</link>
     <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
     <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
