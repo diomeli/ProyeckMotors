@@ -2,6 +2,15 @@
 
 
 <item>
+<title>[B][COLOR yellow][¡¡¡] [/COLOR][/B][B][COLOR white] Instalate la ultima versión de SportDevil Aquí[!!!] [/B][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil</jsonrpc>
+<thumbnail>https://www.kodivpn.co/wp-content/uploads/2017/05/sportsdevil_kodi.png</thumbnail>
+<fanart>https://how-to.watch/wp-content/uploads/2018/02/install-sports-devil-kodi-Addons.png</fanart>
+</item>
+
+
+<item>
 <title>[COLOR yellow][B][I]Canal F1[/I][/B][/COLOR][B][COLOR greenyellow] - En Directo![/COLOR][/B]</title>
 <link>$doregex[GetPageUrl]|Referer=http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
 <name>GetPageUrl</name><expres>source: '(.*?)'</expres>
