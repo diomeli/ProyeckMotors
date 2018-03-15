@@ -20,6 +20,28 @@
 <thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
 <fanart></fanart>
 </item>
+
+<item>
+<title>[COLOR yellow][B][I]MotoGP[/I][/B][/COLOR][B][COLOR greenyellow] - En Directo! opción 2 [/COLOR][/B]</title>
+<link>$doregex[GetPageUrl]|Referer=http://vertelevisor.com/tv/deportes/moto-gp.html/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live3/motogp.php</page>
+<referer>http://vertelevisor.com/tv/deportes/moto-gp.html</referer>
+</regex>
+<thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow][B][I]MotoGP[/I][/B][/COLOR][B][COLOR greenyellow] - En Directo! opción 2 [/COLOR][/B]</title>
+<link>$doregex[GetPageUrl]|Referer=http://verlatv.me/canales/deporte/motogp/&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link><regex>
+<name>GetPageUrl</name><expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=motogpm&width=650&height=397</page>
+<referer>http://verlatv.me/canales/deporte/motogp/</referer>
+</regex>
+<thumbnail>https://i.imgur.com/STFpv7Z.png</thumbnail>
+<fanart></fanart>
+</item>
  
  
  
