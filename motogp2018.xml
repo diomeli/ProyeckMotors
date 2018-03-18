@@ -80,7 +80,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  <item>
     <title>[B][COLOR white]  - MotoGP[/B][/COLOR]</title>
     <multilink>
-        <link>$doregex[getUrl]$$lsname=[B][COLOR red] Opcion 1[/COLOR][/B]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/motogp-2018-qatar-clasificacion-hdtv-720p-movistar-eventoshq,2055463,list,1,1.mp4</link>
+        <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/motogp-2018-qatar-clasificacion-hdtv-720p-movistar-eventoshq,2055463,list,1,1.mp4$$lsname=[B][COLOR red] Opcion 1[/COLOR][/B]</link>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests 
