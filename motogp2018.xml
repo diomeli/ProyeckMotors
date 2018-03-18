@@ -66,9 +66,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 </item>
  
-  <item>
-    <title>[B][COLOR white]  - Moto2[/B][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
+<item>
+<title>[B][COLOR yellow]  - Moto2[/B][/COLOR]</title>
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -104,13 +104,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
- </item>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
  
 <item>
- <title>[B][COLOR white]  - Moto3[/B][/COLOR]</title>
- <link>$doregex[getUrl]</link>
+<title>[B][COLOR yellow]  - Moto3[/B][/COLOR]</title>
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -146,9 +146,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
- </item>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
  
  
 <item>
