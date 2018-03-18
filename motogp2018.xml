@@ -80,9 +80,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  <item>
     <title>[B][COLOR white]  - MotoGP[/B][/COLOR]</title>
     <multilink>
-        <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/f1-2018-hora-f1-260218-27d,1978502,list,1,1.mp4$$lsname=[COLOR red] Opcion 1[/COLOR]</link>
-<thumbnail>https://i.imgur.com/3kQljNO.png</thumbnail>
-<fanart>https://i.imgur.com/UlIfR3z.png</fanart>
+        <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/f1-2018-hora-f1-260218-27d,1978502,list,1,1.mp4$$lsname=[B][COLOR red] Opcion 1[/COLOR][/B]</link>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests 
