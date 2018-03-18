@@ -26,9 +26,7 @@
  
  <item>
     <title>[B][COLOR white]  - MotoGP[/B][/COLOR]</title>
-    <multilink>
-        <link>$$lsname=[B][COLOR red] NO DISPONIBLE AUN[/COLOR][/B]</link>
-        <link>$doregex[getUrl]$$lsname=[B][COLOR lime] NO DISPONIBLE AUN[/COLOR][/B]</link>
+        <link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -71,9 +69,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
   <item>
     <title>[B][COLOR white]  - Moto2[/B][/COLOR]</title>
-    <multilink>
-        <link>$$lsname=[B][COLOR red] NO DISPONIBLE AUN[/COLOR][/B]</link>
-        <link>$doregex[getUrl]$$lsname=[B][COLOR lime] Opcion 2[/COLOR][/B]</link>
+        <link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -109,16 +105,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-    </multilink>
     <thumbnail></thumbnail>
     <fanart></fanart>
  </item>
  
-  <item>
-    <title>[B][COLOR white]  - Moto3[/B][/COLOR]</title>
-    <multilink>
-        <link>$$lsname=[B][COLOR red] NO DISPONIBLE AUN[/COLOR][/B]</link>
-        <link>$doregex[getUrl]$$lsname=[B][COLOR lime] Opcion 2[/COLOR][/B]</link>
+<item>
+ <title>[B][COLOR white]  - Moto3[/B][/COLOR]</title>
+ <link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -154,7 +147,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-    </multilink>
     <thumbnail></thumbnail>
     <fanart></fanart>
  </item>
