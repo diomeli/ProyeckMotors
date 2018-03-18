@@ -26,7 +26,9 @@
  
 <item>
 <title>[B][COLOR yellow]  - MotoGP[/B][/COLOR]</title>
-<link>$doregex[getUrl]</link>
+<multilink>
+<link>https://archive.org/download/MotoGP.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ/MotoGP.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ.mp4$$lsname=[B][COLOR royalblue] Opcion 1[/COLOR][/B]</link>
+<link>$doregex[getUrl]$$lsname=[B][COLOR lime] Opcion 2[/COLOR][/B]</link>
  
 <regex>
 <name>getUrl</name>
