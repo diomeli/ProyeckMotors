@@ -3,22 +3,24 @@
 <item>
 	<title>[B][COLOR orange]      - Campeonato 2018[/COLOR][/B]<title>
 	<link>http://ignorame</link>
-	<thumbnail>http://www.atresplayer.com/clipping/2013/06/28/00743/705.jpg</thumbnail>
+	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 </item>
 
 
 <item>
 	<title>[B][COLOR greenyellow][01][/COLOR][COLOR yellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
 	<link>http://ignorame</link>
-	<thumbnail>http://www.atresplayer.com/clipping/2013/06/28/00743/705.jpg</thumbnail>
+	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 </item>
 
 
 <item>
 <title>  [B][I][COLOR greenyellow] · CARRERA 1  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-1720p,2067958,list,1,1.mp4</link>
-<thumbnail>http://image.tmdb.org/t/p/w300/ysJ7q8WQR3oeeInBXoeOJZXPL5g.jpg</thumbnail>
-<fanart>http://estaticos1.nochedecine.com/wp-content/uploads/2016/08/nt_16_Las-apariencias-enga%C3%B1an-carrusel-650x435.jpg</fanart>
+<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests 
@@ -39,15 +41,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
 </item>
 
 <item>
 <title>    [B][I][COLOR greenyellow] · CARRERA 2  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-2720p,2067956,list,1,1.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests 
@@ -68,8 +68,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
 </item>
 
 <item>
@@ -82,8 +80,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>  [B][I][COLOR greenyellow] · CARRERA 1  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-1720p,2067964,list,1,1.mp4</link>
-<thumbnail>http://image.tmdb.org/t/p/w300/ysJ7q8WQR3oeeInBXoeOJZXPL5g.jpg</thumbnail>
-<fanart>http://estaticos1.nochedecine.com/wp-content/uploads/2016/08/nt_16_Las-apariencias-enga%C3%B1an-carrusel-650x435.jpg</fanart>
+<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests 
@@ -104,15 +102,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
 </item>
 
 <item>
 <title>    [B][I][COLOR greenyellow] · CARRERA 2  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-2720p,2067954,list,1,1.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests 
@@ -133,8 +129,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
 </item>
 
 
