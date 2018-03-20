@@ -8,7 +8,7 @@
 
 
 <item>
-	<title>[B][COLOR greenellow][01][/COLOR][COLOR yellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
+	<title>[B][COLOR greenyellow][01][/COLOR][COLOR yellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.atresplayer.com/clipping/2013/06/28/00743/705.jpg</thumbnail>
 </item>
@@ -44,7 +44,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>            [B][I][COLOR greenyellow] · CARRERA 2  [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR greenyellow] · CARRERA 2  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-2720p,2067956,list,1,1.mp4</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -73,7 +73,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-	<title>[B][COLOR greenellow][01][/COLOR][COLOR yellow] MX2 of Patagonia Argentina[/COLOR][/B]<title>
+	<title>[B][COLOR greenyellow][01][/COLOR][COLOR yellow] MX2 of Patagonia Argentina[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.atresplayer.com/clipping/2013/06/28/00743/705.jpg</thumbnail>
 </item>
@@ -109,7 +109,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>            [B][I][COLOR greenyellow] · CARRERA 2  [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR greenyellow] · CARRERA 2  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-2720p,2067954,list,1,1.mp4</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
