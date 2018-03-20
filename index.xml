@@ -48,7 +48,7 @@ item>
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][  ] [/COLOR][/B][B][COLOR white]  Formula E  [/COLOR][COLOR greenyellow][I]-  Ultimo GP : Mexico Hnos Rodriguez - Nuevo!  [/I][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][  ] [/COLOR][/B][B][COLOR white]  Formula E  [/COLOR][COLOR greenyellow][I]-  Ultimo GP : Punta del Este (Uruguay) - Nuevo!  [/I][/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/KZ555NZ.jpg</thumbnail>
 <fanart>https://i.imgur.com/0FAKLeP.jpg</fanart>
 <link>http://ignoreme</link>
@@ -150,6 +150,14 @@ item>
 <fanart>https://i.imgur.com/maUIX2t.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/porche.xml</externallink>
+</item>
+
+<item>
+<title>[B][COLOR greenyellow][  ] [/COLOR][/B][B][COLOR white] Europeo Motocross[/COLOR][COLOR greenyellow][I]- Nuevo[/I][/COLOR][/B]</title>
+<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/eur.xml</externallink>
 </item>
 
 <item>
