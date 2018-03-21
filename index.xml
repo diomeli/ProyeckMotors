@@ -120,7 +120,7 @@ item>
 </item>
 
 <item>
-<title>[B][COLOR orange][  ] - [/COLOR][/B][B][COLOR white] Racing For Spain[/COLOR][COLOR greenyellow][I]- Programa 1 [/I][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow][  ] - [/COLOR][/B][B][COLOR white] Racing For Spain[/COLOR][COLOR greenyellow][I]- Programa 1 [/I][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
