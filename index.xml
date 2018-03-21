@@ -120,6 +120,44 @@ item>
 </item>
 
 <item>
+<title>[B][COLOR orange][  ] - [/COLOR][/B][B][COLOR white] Racing For Spain[/COLOR][COLOR greenyellow][I]- Programa 1 [/I][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param3]</title>
+<link>$doregex[getUrl]</link>
+<fanart>http://img2.rtve.es/v/4523005?w=1600&preview=1521118410863.jpg</fanart>
+<thumbnail>http://4.bp.blogspot.com/-BBmJFHoJxH0/TiNAtI3W-FI/AAAAAAAAYZA/bUvdTGE7-54/s400/816_LOGOBlancoRfS.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/josele89/racing-for-spain-107974/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/josele89/racing-for-spain-107974/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-BBmJFHoJxH0/TiNAtI3W-FI/AAAAAAAAYZA/bUvdTGE7-54/s400/816_LOGOBlancoRfS.jpg</thumbnail>
+<fanart>http://img2.rtve.es/v/4523005?w=1600&preview=1521118410863.jpg</fanart>
+</item>
+
+<item>
 <title>[B][COLOR greenyellow][  ] [/COLOR][/B][B][COLOR white] Indycar [/COLOR][COLOR greenyellow][I]- 2018: St.Petersburg [/I][/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/TA7hHAY.jpg</thumbnail>
 <fanart>https://i.imgur.com/hOQkDYz.jpg</fanart>
