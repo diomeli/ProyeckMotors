@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-<item>
-<title>[B][COLOR yellow][  ] [/COLOR][/B][B][COLOR white] Instalate la ultima versión de SportDevil Aquí[  ] [/B][/COLOR]</title>
-<link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil</jsonrpc>
-<thumbnail>https://www.kodivpn.co/wp-content/uploads/2017/05/sportsdevil_kodi.png</thumbnail>
-<fanart>https://how-to.watch/wp-content/uploads/2018/02/install-sports-devil-kodi-Addons.png</fanart>
-</item>
 
 <item>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Acestream</link>
