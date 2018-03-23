@@ -78,7 +78,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  
  
 <item>
-    <title>[B]   [COLOR greenyellow] - Libres[/COLOR][COLOR white] Opción 1[/COLOR][/B] </title>
+    <title>[B]   [COLOR greenyellow] - Libres1[/COLOR][COLOR white][/COLOR][/B] </title>
 	<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-australia-2018-libres-1-movf1-hdtv-720p-eventoshq,2086775,list,1,1.mp4</link>
     <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
     <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
@@ -95,6 +95,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
  nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=2086775', headers=headers, data=data_a).text
+ movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
+ print movie 
+ return movie 
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
+<fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
+</item>
+
+<item>
+    <title>[B]   [COLOR greenyellow] - Libres2[/COLOR][COLOR white][/COLOR][/B] </title>
+	<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-australia-2018-libres-2-movf1-hdtv-720p-eventoshq,2089114,list,1,1.mp4</link>
+    <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
+    <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
+<regex><name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests 
+def GetLSProData(page_data,Cookie_Jar,m):
+ url='http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-australia-2018-libres-2-movf1-hdtv-720p-eventoshq,2089114,list,1,1.mp4'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ''}
+ r = requests.get(url, headers=headers).text
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r)[0]
+ #print data_a
+ ref = url
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=2089114', headers=headers, data=data_a).text
  movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
  print movie 
  return movie 
