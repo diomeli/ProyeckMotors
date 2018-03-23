@@ -10,7 +10,7 @@
 def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
-    dialog.textviewer('BIENVENIDOS A [COLOR deeppink] Proyeck[/COLOR][COLOR white]Motors[/COLOR] !', '[COLOR white]Gracias por utilizar el Addon, puedes estar a la ultima en nuestro grupo de Telegram [COLOR yellow]http://t.me/ProyeckMotors[/COLOR]. Para acceder a la zona privada tenemos que hacer reset al Addon y luego introducir la contraseña [COLOR lime] proyeckmotors[/COLOR]. Por último informar que todo el contenido del addon es de fuentes publicas y que es totalmente [COLOR yellow]Gratuito[/COLOR]. Estamos trabajando en la zona privada por lo que estará [COLOR red] Fuera de servicio[/COLOR] temporalmente. Gracias y que disfruteis ')
+    dialog.textviewer('BIENVENIDOS A [COLOR deeppink] Proyeck[/COLOR][COLOR lime]Motors[/COLOR] !', '[COLOR white]Gracias por utilizar el Addon, puedes estar a la ultima en nuestro grupo de Telegram [COLOR yellow]http://t.me/ProyeckMotors[/COLOR]. Para acceder a la zona privada tenemos que hacer reset al Addon y luego introducir la contraseña [COLOR lime] proyeckmotors[/COLOR]. Por último informar que todo el contenido del addon es de fuentes publicas y que es totalmente [COLOR yellow]Gratuito[/COLOR]. Estamos trabajando en la zona privada por lo que estará [COLOR red] Fuera de servicio[/COLOR] temporalmente. Gracias y que disfruteis ')
 ]]></expres>
 <page></page>
 </regex>
@@ -40,7 +40,6 @@ item>
 <title>[B][COLOR greenyellow][  ] [/COLOR][/B][B][COLOR white]  World Padel Tour [/COLOR][COLOR greenyellow][I]-  Cuartos de final femeninos en directo![/I][/COLOR][/B]</title>
 <thumbnail>http://img2.rtve.es/imagenes/world-padel-tour/1429523400151.jpg</thumbnail>
 <fanart>http://www.padelcentrum.nl/wp-content/uploads/2016/03/worldpadeltour.jpg</fanart>
-<link>http://ignoreme</link>
 <urlsolve>https://youtu.be/LqvCZWzDUJQ</urlsolve>
 </item>
 
