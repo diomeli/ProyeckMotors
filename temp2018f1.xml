@@ -84,7 +84,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  
  
 <item>
-    <title>[B]   [COLOR greenyellow] - Libres1[/COLOR][COLOR white][/COLOR][/B] </title>
+    <title>[B][I]   [COLOR greenyellow] - Libres1[/COLOR][COLOR white][/COLOR][/B][/I] </title>
 	<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-australia-2018-libres-1-movf1-hdtv-720p-eventoshq,2086775,list,1,1.mp4</link>
     <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
     <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
@@ -113,7 +113,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-    <title>[B]   [COLOR greenyellow] - Libres2[/COLOR][COLOR white][/COLOR][/B] </title>
+    <title>[B][I]   [COLOR greenyellow] - Libres2[/COLOR][COLOR white][/COLOR][/B][/I] </title>
 	<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-australia-2018-libres-2-movf1-hdtv-720p-eventoshq,2089114,list,1,1.mp4</link>
     <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
     <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
@@ -137,6 +137,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
+<fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][I]   [COLOR greenyellow] - Clasificación[/COLOR][COLOR white] - StreamCloud[/COLOR][/B][/I] </title>
+<urlsolve>http://streamcloud.eu/iroau3w2su0e</urlsolve>
 <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
 <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
 </item>
