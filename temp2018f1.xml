@@ -49,6 +49,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[B][I]   [COLOR greenyellow] - Previo Carrera[/COLOR][COLOR deeppink] - [SD][/COLOR][/B][/I] </title>
+<urlsolve>http://streamcloud.eu/o2bbwxy6vlxl</urlsolve>
+<thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
+<fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
+</item>
+
+<item>
     <title>[B][I]   [COLOR greenyellow] - Clasificación[/COLOR][COLOR deeppink] - [720p][/COLOR][/B][/I] </title>
 	<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/formula-1-gp-australia-2018-pole-movf1-hdtv-720p-eventoshq,2094055,list,1,1.mp4</link>
     <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
