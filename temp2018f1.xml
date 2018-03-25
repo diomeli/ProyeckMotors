@@ -125,6 +125,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
 </item>
 
+<item>
+<title>[B][I]   [COLOR greenyellow] - Libres2[/COLOR][COLOR deeppink] - [SD][/COLOR][/B][/I] </title>
+<urlsolve>http://streamcloud.eu/ljuchucyeuan</urlsolve>
+<thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
+<fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
+</item>
+
+
 
 
 <item>
@@ -152,6 +160,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
+<fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
+</item>
+
+<item>
+<title>[B][I]   [COLOR greenyellow] - Libres1[/COLOR][COLOR deeppink] - [SD][/COLOR][/B][/I] </title>
+<urlsolve>http://streamcloud.eu/q1nr72w9var9</urlsolve>
 <thumbnail>https://i.imgur.com/q3IeJGF.png</thumbnail>
 <fanart>https://www.australia-grand-prix.com/img/events/circuit/2381.jpg</fanart>
 </item>
