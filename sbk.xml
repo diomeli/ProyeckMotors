@@ -6,16 +6,10 @@
 </item>
 
 <item>
-<title>[B][COLOR orange][02] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>
+<title>[B][COLOR orange][02] - [/COLOR][/B][B][COLOR deepskyblue] Buriram (Tailandia)[/COLOR][COLOR yellow] -  23 - 25 Marzo[/COLOR][/B]</title>
 <link>http://ignoreme</link>
 </item>
 
-
-
-<item>
-<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>
-<link>http://ignoreme</link>
-</item>
 
 <item>
 <title>[B][COLOR orange]       [+][/COLOR][/B][B][COLOR orange]SuperPole[/COLOR][/B]</title>
@@ -101,6 +95,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </multilink>
 <thumbnail>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</thumbnail>
 <fanart>http://www.velocidadatope.com/VAT/edu34/SBK2018/TITULO.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue] Phillip Island (Australia) [/COLOR][COLOR yellow] -  23 - 25 Febrero[/COLOR][/B]</title>
+<link>http://ignoreme</link>
 </item>
 
 
