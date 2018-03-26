@@ -57,7 +57,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 </item>
 
-item>
+<item>
 <title>    [B][I][COLOR white] · CARRERA 2  [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
@@ -68,7 +68,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://kbagi.com/'
- url='http://kbagi.com/eromeroib/el-hombre-y-la-tierra-fauna-iberica-590094/03-el-hosquillo,4981862,list,1,20.mkv'
+ url='http://kbagi.com/Josele89/motor-618870/2018-mxgp-of-europe-valkenswaard-rd-2-mxgp-race-2720p,5778006,list,1,1.mp4'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
@@ -97,7 +97,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
-/item>
+</item>
 
 <item>
 	<title>[B][COLOR red][02][/COLOR][COLOR greenyellow] MX2 of Europe Valkenswaard[/COLOR][/B]<title>
