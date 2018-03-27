@@ -37,10 +37,11 @@ item>
 </item>
 
 <item>
-<title>[B][COLOR deeppink][  ] [/COLOR][/B][B][COLOR white]  World Padel Tour [/COLOR][COLOR greenyellow][I]-  Cuartos de final, en directo![/I][/COLOR][/B]</title>
-<thumbnail>http://img2.rtve.es/imagenes/world-padel-tour/1429523400151.jpg</thumbnail>
-<fanart>http://www.padelcentrum.nl/wp-content/uploads/2016/03/worldpadeltour.jpg</fanart>
-<link>plugin://plugin.video.youtube/play/?video_id=CQskUuSbDE8</link>
+<title>[B][COLOR springgreen]WEC : Campeonato Mundial de Resistencia[/COLOR][COLOR yellow] 2018[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.ytimg.com/vi/PTm09FvFVoo/maxresdefault.jpg</thumbnail>
+<fanart>https://ds1.static.rtbf.be/image/media/object/default/16x9/1248x702/1/7/6/176cb1928641730cd4289beef340ae9e.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/wec.xml</externallink>
 </item>
 
 
