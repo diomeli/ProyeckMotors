@@ -8,7 +8,7 @@
 </item>
 
 <item>
-	<title>[B][COLOR red][02][/COLOR][COLOR greenyellow] MXGP of Europe Valkenswaard[/COLOR][/B]<title>
+	<title>[B][COLOR red][02][/COLOR][COLOR yellow] MXGP of Europe Valkenswaard[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -16,7 +16,7 @@
 
 
 <item>
-<title>  [B][I][COLOR white] · Carrera 1  [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -58,7 +58,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR white] · Carrera 2  [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR greenyellow] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -99,16 +99,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 </item>
 
-<item>
-	<title>[B][COLOR red][02][/COLOR][COLOR greenyellow] MX2 of Europe Valkenswaard[/COLOR][/B]<title>
-	<link>http://ignorame</link>
-	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
-	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
-</item>
-
 
 <item>
-<title>  [B][I][COLOR white] · Carrera 1  [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] · Carrera 1 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -150,7 +143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR white] · Carrera 2  [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR greenyellow] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -194,7 +187,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 ---------------------------------------------------------------------------------------------------------------
 <item>
-	<title>[B][COLOR red][01][/COLOR][COLOR greenyellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
+	<title>[B][COLOR red][01][/COLOR][COLOR yellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -202,88 +195,124 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR white] · Carrera 1  [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-1720p,2067958,list,1,1.mp4</link>
-<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
-<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
-<regex><name>getUrl</name>
+ 
+<regex>
+<name>getUrl</name>
 <expres><![CDATA[#$pyFunction
-import re , requests 
+import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://diskokosmiko.mx/'
  url='http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-1720p,2067958,list,1,1.mp4'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ''}
- r = requests.get(url, headers=headers).text
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r)[0]
- #print data_a
- ref = url
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=2067958', headers=headers, data=data_a).text
- movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
- print movie 
- return movie 
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'josele89' , 'Password' : 'josele89'}
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
+<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
 </item>
 
 <item>
-<title>    [B][I][COLOR white] · Carrera 2  [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR greenyellow] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-2720p,2067956,list,1,1.mp4</link>
 <thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
-<regex><name>getUrl</name>
+<regex>
+<name>getUrl</name>
 <expres><![CDATA[#$pyFunction
-import re , requests 
+import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://diskokosmiko.mx/'
  url='http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-2720p,2067956,list,1,1.mp4'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ''}
- r = requests.get(url, headers=headers).text
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r)[0]
- #print data_a
- ref = url
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=2067956', headers=headers, data=data_a).text
- movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
- print movie 
- return movie 
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'josele89' , 'Password' : 'josele89'}
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
 </item>
 
-<item>
-	<title>[B][COLOR red][01][/COLOR][COLOR greenyellow] MX2 of Patagonia Argentina[/COLOR][/B]<title>
-	<link>http://ignorame</link>
-	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
-	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
-</item>
-
 
 <item>
-<title>  [B][I][COLOR white] · Carrera 1  [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] · Carrera 1 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-1720p,2067964,list,1,1.mp4</link>
 <thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
-<regex><name>getUrl</name>
+<regex>
+<name>getUrl</name>
 <expres><![CDATA[#$pyFunction
-import re , requests 
+import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://diskokosmiko.mx/'
  url='http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-1720p,2067964,list,1,1.mp4'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ''}
- r = requests.get(url, headers=headers).text
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r)[0]
- #print data_a
- ref = url
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=2067964', headers=headers, data=data_a).text
- movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
- print movie 
- return movie 
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'josele89' , 'Password' : 'josele89'}
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
@@ -291,26 +320,40 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR white] · Carrera 2  [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR greenyellow] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-2720p,2067954,list,1,1.mp4</link>
 <thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
-<regex><name>getUrl</name>
+<regex>
+<name>getUrl</name>
 <expres><![CDATA[#$pyFunction
-import re , requests 
+import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ ref = 'http://diskokosmiko.mx/'
  url='http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-2720p,2067954,list,1,1.mp4'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ''}
- r = requests.get(url, headers=headers).text
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r)[0]
- #print data_a
- ref = url
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
+            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
+ session = requests.Session()
+ r = session.get(url, headers=headers)
+ rv1 = r.cookies
+ 
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
  data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=2067954', headers=headers, data=data_a).text
- movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
- print movie 
- return movie 
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
+ nrj=json.loads(nr)
+ nr = nrj['Content']
+ r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
+ data_a ={'__RequestVerificationToken': r2 , 'Username': 'josele89' , 'Password' : 'josele89'}
+ nr1 = requests.post('http://diskokosmiko.mx/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
+ print nr1.headers['Set-Cookie']
+ rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
+ rv1['.ASPXAUTH_v2'] = rasp
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr3 = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
+ r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
+ print r3
+ return r3
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
@@ -319,6 +362,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-004923576140000798 --->  45.85 tema incontencioso
-
-616069703---->nº whatssap   lunes 2 abril
