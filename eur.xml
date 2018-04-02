@@ -9,7 +9,7 @@
 
 
 <item>
-	<title>[B][COLOR red][03][/COLOR][COLOR yellow] MXGP of Spain[/COLOR][/B]<title>
+	<title>[B][COLOR royalblue][03][/COLOR][COLOR yellow] MXGP of Spain[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://offroadvideos.org/wp-content/uploads/2018/03/mxgpspain-300x225.jpg<thumbnail>
 	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -101,7 +101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR silver] · Carrera 1 MX2 [/COLOR][/I][COLOR red] No Disponible aún [/COLOR][/B]</title>
+<title>  [B][I][COLOR silver] · Carrera 1 MX2 [/COLOR][/I][COLOR royalblue] No Disponible aún [/COLOR][/B]</title>
 <link>$doregex[getUrl]|Referer=</link>
 <thumbnail>http://offroadvideos.org/wp-content/uploads/2018/03/mxgpspain-300x225.jpg<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -185,7 +185,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 --------------------------------------------------------------------------
 
 <item>
-	<title>[B][COLOR red][02][/COLOR][COLOR yellow] MXGP of Europe Valkenswaard[/COLOR][/B]<title>
+	<title>[B][COLOR royalblue][02][/COLOR][COLOR yellow] MXGP of Europe Valkenswaard[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -364,7 +364,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 ---------------------------------------------------------------------------------------------------------------
 <item>
-	<title>[B][COLOR red][01][/COLOR][COLOR yellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
+	<title>[B][COLOR royalblue][01][/COLOR][COLOR yellow] MXGP of Patagonia Argentina[/COLOR][/B]<title>
 	<link>http://ignorame</link>
 	<thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 	<fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
