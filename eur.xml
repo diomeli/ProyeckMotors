@@ -17,7 +17,7 @@
 
 
 <item>
-<title>  [B][I][COLOR greenyellow] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR white] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-fim-mxgp-of-la-comunitat-valenciana-spain-rd-3-mxgp-race-1720p,2134404,list,1,1.mp4</link>
  
 <regex>
@@ -59,7 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR greenyellow] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR white] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-fim-mxgp-of-la-comunitat-valenciana-spain-rd-3-mxgp-race-2720p,2134402,list,1,1.mp4</link>
 <thumbnail>http://offroadvideos.org/wp-content/uploads/2018/03/mxgpspain-300x225.jpg<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -101,7 +101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR greenyellow] · Carrera 1 MX2 [/COLOR][/I][COLOR red] No Disponible aún [/COLOR][/B]</title>
+<title>  [B][I][COLOR silver] · Carrera 1 MX2 [/COLOR][/I][COLOR red] No Disponible aún [/COLOR][/B]</title>
 <link>$doregex[getUrl]|Referer=</link>
 <thumbnail>http://offroadvideos.org/wp-content/uploads/2018/03/mxgpspain-300x225.jpg<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -142,7 +142,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR greenyellow] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR silver] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/2018-fim-mxgp-of-la-comunitat-valenciana-spain-rd-3-mx2-race-2720p,2134403,list,1,1.mp4</link>
 <thumbnail>http://offroadvideos.org/wp-content/uploads/2018/03/mxgpspain-300x225.jpg<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -193,7 +193,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR greenyellow] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR white] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -235,7 +235,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR greenyellow] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR white] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -278,7 +278,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR greenyellow] · Carrera 1 MX2 [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR silver] · Carrera 1 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -320,7 +320,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR greenyellow] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR silver] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -372,7 +372,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR greenyellow] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR white] · Carrera 1 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-1720p,2067958,list,1,1.mp4</link>
  
 <regex>
@@ -414,7 +414,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR greenyellow] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR white] · Carrera 2 MXGP [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mxgp-race-2720p,2067956,list,1,1.mp4</link>
 <thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -456,7 +456,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>  [B][I][COLOR greenyellow] · Carrera 1 MX2 [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR silver] · Carrera 1 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-1720p,2067964,list,1,1.mp4</link>
 <thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
@@ -497,7 +497,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>    [B][I][COLOR greenyellow] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
+<title>    [B][I][COLOR silver] · Carrera 2 MX2 [/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-Carreras-90233/2018-mxgp-of-patagonia-argentina-rd-1-mx2-race-2720p,2067954,list,1,1.mp4</link>
 <thumbnail>http://www.mx1onboard.com/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-19-a-las-08.25.10-410x300.png<thumbnail>
 <fanart>http://www.motobergamo035.it/wp-content/uploads/2017/03/IMG_4400.jpg</fanart>
