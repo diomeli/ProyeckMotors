@@ -11,7 +11,7 @@
 <setcookie>beget=begetok</setcookie>
 </regex>
 https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
-<title>[B][COLOR greenyellow]MotoGP - (ArenaVision.in)[/COLOR][COLOR yellow] Solo Evento[/COLOR][COLOR deeppink] [POR][OP.1][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow]MotoGP - [/COLOR][COLOR yellow] Solo Evento[/COLOR][COLOR deeppink] [POR][OP.1][/COLOR][/B]</title>
 </item>
 
 <item>
@@ -24,7 +24,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
 <setcookie>beget=begetok</setcookie>
 </regex>
 https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
-<title>[B][COLOR greenyellow]F1 - (ArenaVision.in)[/COLOR][COLOR yellow] Solo Evento[/COLOR][COLOR deeppink] [POR][OP.2][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow]MotoGP - [/COLOR][COLOR yellow] Solo Evento[/COLOR][COLOR deeppink] [POR][OP.2][/COLOR][/B]</title>
 </item>
 
 <item>
@@ -32,12 +32,12 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
 <regex>
 <name>hash</name>
 <expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://arenavision2018.tk/21?dajhbaduchjwas</page>
+<page>http://arenavision2018.tk/38?iusxkasjukxaszxc</page>
 <referer>http://arenavision.in</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
 https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
-<title>[B][COLOR greenyellow]F1 - (ArenaVision.in)[/COLOR][COLOR yellow] Solo Evento[/COLOR][COLOR deeppink] [ENG][OP.3][/COLOR][/B]</title>
+<title>[B][COLOR greenyellow]MotoGP - [/COLOR][COLOR yellow] Solo Evento[/COLOR][COLOR deeppink] [ENG][OP.3][/COLOR][/B]</title>
 </item>
 
  
