@@ -53,7 +53,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  
  
 <item>
-<title>  [B][I][COLOR greenyellow] - Clasificación MOTOGP  [/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTOGP  [/COLOR][COLOR hotpink] (720p)[/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/motogp-2018-argentina-clasificacion-hdtv-720p-movistar-eventoshq,2162170,list,1,2.mp4</link>
  
 <regex>
@@ -90,6 +90,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
+<fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
+</item>
+
+<item>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTOGP  [/COLOR][COLOR hotpink] (SD)[/COLOR][/B][/I]</title>
+<urlsolve>https://www.rapidvideo.com/v/FQ4U3HFWPY</urlsolve>
 <thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
 <fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
 </item>
