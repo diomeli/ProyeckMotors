@@ -53,7 +53,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  
  
 <item>
-<title>  [B][I][COLOR greenyellow] - Clasificación MOTOGP  [/COLOR][COLOR hotpink] (720p)[/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] - Clasificación MotoGP  [/COLOR][COLOR hotpink] (720p)[/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/f1-motos-carreras-90233/motogp-2018-argentina-clasificacion-hdtv-720p-movistar-eventoshq,2162170,list,1,2.mp4</link>
  
 <regex>
@@ -105,7 +105,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
 <item>
-    <title>[B][COLOR red][01] :[/COLOR][COLOR greenyellow] Gran Premio Qatar Losail [/COLOR][/B]</title>
+    <title>[B][COLOR red][01] :[/COLOR][COLOR yellow] Gran Premio Qatar Losail [/COLOR][/B]</title>
     <link>http://ignorame</link>
     <thumbnail></thumbnail>
     <fanart></fanart>
@@ -113,7 +113,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
 <item>
-<title>  [B][COLOR yellow]  - Carrera MotoGP[/B][/COLOR]</title>
+<title>  [B][COLOR white]  - Carrera MotoGP[/B][/COLOR]</title>
 <multilink>
 <link>https://archive.org/download/MotoGP.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ/MotoGP.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ.mp4$$lsname=[B][COLOR royalblue] Opcion 1[/COLOR][/B]</link>
 <link>$doregex[getUrl]$$lsname=[B][COLOR lime] Opcion 2[/COLOR][/B]</link>
@@ -158,7 +158,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
  
 <item>
-<title>  [B][COLOR yellow]  - Carrera Moto2[/B][/COLOR]</title>
+<title>  [B][COLOR white]  - Carrera Moto2[/B][/COLOR]</title>
 <multilink>
 <link>https://archive.org/download/Moto.2.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ/Moto.2.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ.mp4$$lsname=[B][COLOR royalblue] Opcion 1[/COLOR][/B]</link>
 <link>$doregex[getUrl]$$lsname=[B][COLOR lime] Opcion 2[/COLOR][/B]</link>
@@ -203,7 +203,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
  
 <item>
-<title>  [B][COLOR yellow]  - Carrera Moto3[/B][/COLOR]</title>
+<title>  [B][COLOR white]  - Carrera Moto3[/B][/COLOR]</title>
 <multilink>
 <link>https://archive.org/download/Moto.3.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ/Moto.3.2018.Qatar.Carrera.HDTV.720p.Movistar.EventosHQ.mp4$$lsname=[B][COLOR royalblue] Opcion 1[/COLOR][/B]</link>
 <link>$doregex[getUrl]$$lsname=[B][COLOR lime] Opcion 2[/COLOR][/B]</link>
