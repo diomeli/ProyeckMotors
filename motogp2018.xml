@@ -45,7 +45,7 @@ https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
  
 
 <item>
-    <title>[B][COLOR red][02] :[/COLOR][COLOR greenyellow] Gran Premio Argentina [/COLOR][/B]</title>
+    <title>[B][COLOR red][02] :[/COLOR][COLOR white] Gran Premio Argentina [/COLOR][/B]</title>
     <link>http://ignorame</link>
     <thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
     <fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
@@ -95,11 +95,40 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>  [B][I][COLOR greenyellow] - Clasificación MOTOGP  [/COLOR][COLOR hotpink] (SD)[/COLOR][/B][/I]</title>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTOGP  [/COLOR][COLOR hotpink] (720P Op.2)[/COLOR][/B][/I]</title>
 <urlsolve>https://www.rapidvideo.com/v/FQ4U3HFWPY</urlsolve>
 <thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
 <fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
 </item>
+
+<item>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTO2  [/COLOR][COLOR hotpink] (720P)[/COLOR][/B][/I]</title>
+<urlsolve>https://www.rapidvideo.com/v/FQ5E9AUR8F</urlsolve>
+<thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
+<fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
+</item>
+
+<item>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTO2  [/COLOR][COLOR hotpink] (SD)[/COLOR][/B][/I]</title>
+<urlsolve>http://streamcloud.eu/27gsffhf43tu</urlsolve>
+<thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
+<fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
+</item>
+
+<item>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTO3  [/COLOR][COLOR hotpink] (720P)[/COLOR][/B][/I]</title>
+<urlsolve>https://www.rapidvideo.com/v/FQ5E13VS44</urlsolve>
+<thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
+<fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
+</item>
+
+<item>
+<title>  [B][I][COLOR greenyellow] - Clasificación MOTO3  [/COLOR][COLOR hotpink] (SD)[/COLOR][/B][/I]</title>
+<urlsolve>http://streamcloud.eu/w20mgcgjd48x</urlsolve>
+<thumbnail>http://gpmalaysia.com/v1/wp-content/uploads/2015/04/2015-MotoGP-Argentina-GP-logo.png</thumbnail>
+<fanart>http://blog.racc.es/wp-content/uploads/2014/04/motogp-argentina-20141.png</fanart>
+</item>
+
 
 
  
