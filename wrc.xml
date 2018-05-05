@@ -11,10 +11,8 @@
 </item>
 
 <item>
-<title>[B][COLOR orange][04] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Còrcega[/COLOR][COLOR yellow] -  10 Abril 2018[/COLOR][/B]</title>        
-<multilink>
-<urlsolve>https://www.rapidvideo.com/v/FR0MQGRZIN$$lsname=[COLOR lime]WRC - (SD) [/COLOR]</urlsolve>
-<link>$doregex[getUrl]$$lsname=[COLOR gold]WRC - (720p) [/COLOR]</link>
+<title>[B][COLOR orange][05] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Argentina[/COLOR][COLOR yellow] -  31 Abril 2018[/COLOR][/B]</title>        
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -51,7 +49,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-</multilink>
 <thumbnail></thumbnail>
 <fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
 </item>
