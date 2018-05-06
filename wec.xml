@@ -16,14 +16,14 @@
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][01] [/COLOR][/B][B][COLOR white] 6h Spa-Francorchamps:[/COLOR][I][COLOR yellow] Carrera[/COLOR][COLOR deeppink] - Opción 1(SD)[/COLOR][/I][/B]</title>
+<title>[B][COLOR greenyellow][01] [/COLOR][/B][B][COLOR white] 6h Spa-Francorchamps:[/COLOR][I][COLOR yellow] Carrera[/COLOR][COLOR deeppink] (SD)[/COLOR][/I][/B]</title>
 <urlsolve>https://www.rapidvideo.com/v/FR2AWLS4F2</urlsolve>
 <thumbnail>https://i.ytimg.com/vi/PTm09FvFVoo/maxresdefault.jpg</thumbnail>
 <fanart>https://mediatec.fiawec.com//media/cache/media_l/assets/fileuploads/5a/7d/5a7dca746c483.JPG</fanart>
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][01] [/COLOR][/B][B][COLOR white] 6h Spa-Francorchamps:[/COLOR][I][COLOR yellow] Carrera[/COLOR][COLOR deeppink] - Opción 2 (720p)[/COLOR][/I][/B]</title>
+<title>[B][COLOR greenyellow][01] [/COLOR][/B][B][COLOR white] 6h Spa-Francorchamps:[/COLOR][I][COLOR yellow] Carrera[/COLOR][COLOR deeppink] (720p)[/COLOR][/I][/B]</title>
 <link>$doregex[getUrl]|Referer=http://kbagi.com/Josele89/carreras-f1-621542/wec-6-horas-spa-2018,6035663,list,1,1.mp4</link>
  
 <regex>
