@@ -55,9 +55,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[B][COLOR orange][04] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Còrcega[/COLOR][COLOR yellow] -  10 Abril 2018[/COLOR][/B]</title>        
-<multilink>
-<link>https://archive.org/download/1523395635204/1523395635204.mp4$$lsname=[COLOR lime]WRC - Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR gold]WRC - Opcion 2 [/COLOR]</link>
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -94,16 +92,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-</multilink>
 <thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
 <fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
 </item>
 
 <item>
 <title>[B][COLOR orange][03] - [/COLOR][/B][B][COLOR deepskyblue]Rally de México[/COLOR][COLOR yellow] -  13 Marzo 2018[/COLOR][/B]</title>        
-<multilink>
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeMxico/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20M%C3%A9xico.mp4$$lsname=[COLOR lime]WRC - Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR gold]WRC - Opcion 2 [/COLOR]</link>
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -140,16 +135,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-</multilink>
 <thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
 <fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
 </item>
 
 <item>
 <title>[B][COLOR orange][02] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Suecia[/COLOR][COLOR yellow] -  20 febrero 2018[/COLOR][/B]</title>        
-<multilink>
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeSuecia.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Suecia.%20Resumen.mp4$$lsname=[COLOR lime]WRC - Opcion 1 [/COLOR]</link>
-<link>$doregex[getUrl]$$lsname=[COLOR gold]WRC - Opcion 2 [/COLOR]</link>
+<link>$doregex[getUrl]</link>
  
 <regex>
 <name>getUrl</name>
@@ -186,20 +178,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 </link>
-</multilink>
 <thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
 <fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
 </item>
 
-<item>
-<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Montecarlo [/COLOR][COLOR yellow] - Opcion 1 - 28 enero 2018[/COLOR][/B]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundoRallyMontecarlo.Resumen/WRC%20-%20Campeonato%20del%20Mundo%2C%20Rally%20Montecarlo.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
 
 <item>
-<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Montecarlo [/COLOR][COLOR yellow] - Opcion 2 - 28 enero 2018[/COLOR][/B]</title>
+<title>[B][COLOR orange][01] - [/COLOR][/B][B][COLOR deepskyblue]Rally de Montecarlo [/COLOR][COLOR yellow] - 28 enero 2018[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
  
 <regex>
@@ -241,94 +226,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white]  Rally de Australia[/COLOR][COLOR yellow] - WRC - 21 nov 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Australia.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Gran Bretaña[/COLOR][COLOR yellow] - WRC - 31 oct 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Gran%20Breta%C3%B1a.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de RACC Cataluña[/COLOR][COLOR yellow] - WRC - 11 oct 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20RACC%20Catalu%C3%B1a-Rally%20de%20Espa%C3%B1a.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Alemania[/COLOR][COLOR yellow] - WRC - 22 ago 2017 [/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Alemania.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Finlandia[/COLOR][COLOR yellow] - WRC - 02 ago 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Finlandia.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Polonia[/COLOR][COLOR yellow] - WRC - 04 jul 2017 [/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Polonia.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Cerdeña[/COLOR][COLOR yellow] - WRC - 14 jun 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Cerde%C3%B1a.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Portugal[/COLOR][COLOR yellow] - WRC - 23 may 2017 [/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Portugal.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Argentina[/COLOR][COLOR yellow] - WRC - 02 may 2017 [/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Argentina_%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Córcega[/COLOR][COLOR yellow] - WRC - 11 abr 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20C%C3%B3rcega_%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de México[/COLOR][COLOR yellow] - WRC - 14 mar 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20M%C3%A9xico.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-#<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Suecia[/COLOR][COLOR yellow] - WRC - 14 feb 2017[/COLOR]</title>        
-<link></link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
-
-<item>
-<title>          [COLOR lime] >>[/COLOR][COLOR white] Rally de Montecarlo[/COLOR][COLOR yellow] - WRC - 24 ene 2017[/COLOR]</title>        
-<link>https://archive.org/download/WRCCampeonatoDelMundo.RallyDeGranBretaa.Resumen/WRC%20-%20Campeonato%20del%20Mundo.%20Rally%20de%20Montecarlo.%20Resumen.mp4</link>
-<thumbnail>https://i.imgur.com/VAHpl7i.png</thumbnail>
-<fanart>https://i.imgur.com/VOoyll2.jpg</fanart>
-</item>
 
