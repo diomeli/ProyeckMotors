@@ -7,6 +7,34 @@
 </item>
 
 <item>
+    <title>[COLOR deeppink][05] IndyCar Grand Prix [/COLOR][COLOR white] [/COLOR][COLOR yellow] 12/05/2018 [/COLOR]</title>
+    <link>https://goo.gl/LVZAdT</link>
+    <thumbnail>http://www.velocidadatope.com/VAT/INDYCAR/Verizon_Indycar_series.png</thumbnail>
+    <fanart></fanart>
+</item>
+
+<item>
+    <title>[COLOR deeppink][04] Honda Indy Grand Prix of [/COLOR][COLOR white] [/COLOR][COLOR yellow] Alabama [/COLOR]</title>
+    <link>https://goo.gl/eH8wq9</link>
+    <thumbnail>http://www.velocidadatope.com/VAT/INDYCAR/Verizon_Indycar_series.png</thumbnail>
+    <fanart></fanart>
+</item>
+
+<item>
+    <title>[COLOR deeppink][03] Toyota Grand Prix of [/COLOR][COLOR white] [/COLOR][COLOR yellow] Long Beach  [/COLOR]</title>
+    <link>https://goo.gl/PQVbmq</link>
+    <thumbnail>http://www.velocidadatope.com/VAT/INDYCAR/Verizon_Indycar_series.png</thumbnail>
+    <fanart></fanart>
+</item>
+
+<item>
+    <title>[COLOR deeppink][02][/COLOR][COLOR white] Desert Diamond West Valley [/COLOR][COLOR yellow] Phoenix Grand Prix  [/COLOR]</title>
+    <link>https://goo.gl/J3XfoD</link>
+    <thumbnail>http://www.velocidadatope.com/VAT/INDYCAR/Verizon_Indycar_series.png</thumbnail>
+    <fanart></fanart>
+</item>
+
+<item>
 <title>[COLOR deeppink][01][/COLOR][COLOR white] Firestone Grand Prix of [/COLOR][COLOR yellow] St. Petersburg [/COLOR]</title>        
 <link>$doregex[getUrl]</link>
  
