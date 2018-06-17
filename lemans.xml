@@ -108,7 +108,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://mediatec.fiawec.com//media/cache/media_l/assets/fileuploads/5a/7d/5a7dca746c483.JPG</fanart>
 </item><item>
 <title>[B][COLOR greenyellow][Q3] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q3[/COLOR][COLOR orange] - (720p)[/COLOR][/B][/I]</title>
-<link>$doregex[getUrl]|Referer=</link>
+<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/wrc-113954/24q3,2282162,list,1,1.mp4</link>
  
 <regex>
 <name>getUrl</name>
@@ -117,7 +117,7 @@ import re , requests ,json
 def GetLSProData(page_data,Cookie_Jar,m):
  
  ref = 'http://diskokosmiko.mx/'
- url=''
+ url='http://diskokosmiko.mx/josele89/wrc-113954/24q3,2282162,list,1,1.mp4'
  headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
             'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
  session = requests.Session()
