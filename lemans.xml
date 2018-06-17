@@ -11,7 +11,7 @@
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][Q1] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q1[/COLOR][COLOR orange] - (720p)[/COLOR][/B][/I]</title>
+<title>[B][COLOR greenyellow][Q1] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q1[/COLOR][COLOR orange] - (1080p)[/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/wrc-113954/24q1,2282111,list,1,1.mkv</link>
  
 <regex>
@@ -60,7 +60,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR greenyellow][Q2] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q2[/COLOR][COLOR orange] - (720p)[/COLOR][/B][/I]</title>
+<title>[B][COLOR greenyellow][Q2] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q2[/COLOR][COLOR orange] - (1080p)[/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/wrc-113954/24q2,2282149,list,1,1.mp4</link>
  
 <regex>
@@ -107,7 +107,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.ytimg.com/vi/PTm09FvFVoo/maxresdefault.jpg</thumbnail>
 <fanart>https://mediatec.fiawec.com//media/cache/media_l/assets/fileuploads/5a/7d/5a7dca746c483.JPG</fanart>
 </item><item>
-<title>[B][COLOR greenyellow][Q3] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q3[/COLOR][COLOR orange] - (720p)[/COLOR][/B][/I]</title>
+<title>[B][COLOR greenyellow][Q3] [/COLOR][/B][B][COLOR white] 24H LeMans[/COLOR][I][COLOR yellow] Q3[/COLOR][COLOR orange] - (1080p)[/COLOR][/B][/I]</title>
 <link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/josele89/wrc-113954/24q3,2282162,list,1,1.mp4</link>
  
 <regex>
