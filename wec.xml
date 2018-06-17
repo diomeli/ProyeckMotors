@@ -2,40 +2,6 @@
 
 
 
-<item>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Acestream</link>
-<regex>
-<name>hash</name>
-<expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://arenavision2017.tk/13?sccasnytybgfcx</page>
-<referer>http://www.arenavision.in</referer>
-<setcookie>beget=begetok</setcookie>
-</regex>
-https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
-<title>[B][COLOR yellow]ArenaVision 13[/COLOR][/B]</title>
-</item>
-
-<item>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Acestream</link>
-<regex>
-<name>hash</name>
-<expres>this.loadPlayer\("(.*?)"</expres>
-<page>http://arenavision2017.tk/14?sdczwacsgbyfgbcv</page>
-<referer>http://www.arenavision.in</referer>
-<setcookie>beget=begetok</setcookie>
-</regex>
-https://i2.wp.com/rojillo.es/wp-content/uploads/2017/05/warenavision.png
-<title>[B][COLOR yellow]ArenaVision 14[/COLOR][/B]</title>
-</item>
-
-<item>
-<title>[B][COLOR lime] 24h LeMans[/COLOR][/B]</title>
-<link>http://orangesports.win/ls/4.m3u8</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
 
 <item>
 <title>[B][COLOR greenyellow][00] [/COLOR][/B][B][COLOR white] WEC 2018: Cuenta atrás para el espectáculo[/COLOR][I][COLOR yellow] Video Intro[/COLOR][/B][/I]</title>
