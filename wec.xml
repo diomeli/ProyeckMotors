@@ -72,6 +72,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>na</link>
 <thumbnail>https://i.ytimg.com/vi/PTm09FvFVoo/maxresdefault.jpg</thumbnail>
 <fanart>https://mediatec.fiawec.com//media/cache/media_l/assets/fileuploads/5a/7d/5a7dca746c483.JPG</fanart>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/RetroBlogPi/ProyeckMotors/master/lemans.xml</externallink>
 </item>
 
